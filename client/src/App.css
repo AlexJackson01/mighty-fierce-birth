@@ -1,0 +1,97 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: #fcdce3;
+}
+
+.container {
+    padding: 50px;
+}
+
+.logo {
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    /* margin-left: 10px; */
+    /* margin: 0px 50px; */
+    padding: 10px;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+.nav-wrap {
+    background-color: black;
+    background-image: url(./images/zebra-print.png);
+    /* background-repeat: ; */
+    background-size: auto;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 50px;
+    /* margin: 1px 0px; */
+    /* margin: 0px 40px; */
+}
+
+.nav-link {
+    color: black;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #ec5eb1;
+}
+
+li {
+    list-style-type: none;
+}
+
+.about-me {
+    background-color: white;
+
+    /* margin-top: 50px; */
+    padding: 50px;
+    
+    
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-wrap {
+    background-color: black;
+    background-image: url(./images/zebra-print.png);
+    background-size: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.about-video {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #ec5eb1;
+
+}
+
+h4 {
+    color:#F04AAD;
+    padding-bottom: 10px;
+}
