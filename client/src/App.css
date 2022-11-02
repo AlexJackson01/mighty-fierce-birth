@@ -95,3 +95,20 @@ h4 {
     color:#F04AAD;
     padding-bottom: 10px;
 }
+
+.courses {
+    background-color: white;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    text-align: center;
+}
+
+.accordian {
+    display: block;
+    margin: 0 auto;
+}
+
+.spacing {
+    padding-bottom: 30px;
+}
