@@ -22,20 +22,12 @@ body {
     /* margin-left: 10px; */
     /* margin: 0px 50px; */
     padding: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 7px solid #ec5eb1;
+    margin-bottom: 30px;
     font-size: 18px;
+    
 }
 
-.nav-wrap {
-    background-color: black;
-    background-image: url(./images/zebra-print.png);
-    /* background-repeat: ; */
-    background-size: auto;
-    padding: 0px 0px 20px 0px;
-    margin-bottom: 50px;
-    /* margin: 1px 0px; */
-    /* margin: 0px 40px; */
-}
 
 .nav-link {
     color: black;
@@ -88,17 +80,19 @@ li {
 
 h2 {
     color: #ec5eb1;
+    text-align: center;
+    padding-bottom: 20px;
 
 }
 
 h4 {
-    color:#F04AAD;
+    color:#ec5eb1;
     padding-bottom: 10px;
 }
 
 .courses {
     background-color: white;
-    padding: 50px;
+    padding: 70px;
     margin-left: 20px;
     margin-right: 20px; 
     text-align: center;
@@ -111,4 +105,24 @@ h4 {
 
 .spacing {
     padding-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.review {
+    margin-bottom: -200px;
+}
+
+.strike {
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.socials {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
