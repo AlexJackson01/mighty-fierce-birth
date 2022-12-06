@@ -126,3 +126,17 @@ p {
     margin: 0 auto;
     text-align: center;
 }
+
+.tcs-header {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.tcs-section {
+    text-decoration: underline;
+}
+
+.tcs {
+    text-align: center;
+}
