@@ -15,7 +15,7 @@ export default function SimpleAccordion() {
           id="panel1a-header"
           sx={{backgroundColor: "#fcdce3", margin: "0 auto"}}
         >
-          <Typography align="center" sx={{fontFamily: "League Spartan", fontWeight: 600, width: "100%", fontSize: 20}}>Private Full Online Course - £350</Typography>
+          <Typography align="center" sx={{fontFamily: "League Spartan", fontWeight: 600, width: "100%", fontSize: 20}}>Private Full Course - £350</Typography>
         </AccordionSummary>
         <AccordionDetails sx={{margin: "0 auto"}}>
           <Typography sx={{fontFamily: "League Spartan", margin: "0 auto", fontSize: "18px"}}>
@@ -44,6 +44,22 @@ export default function SimpleAccordion() {
             - Changing your mindset about birth<br />
             - Your birth partner’s role<br />
             - Your rights<br />
+
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion sx={{margin: "0 auto"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+          sx={{backgroundColor: "#fcdce3"}}
+        >
+          <Typography align="center" sx={{fontFamily: "League Spartan", fontWeight: 600, width: "100%", fontSize: 20}}>Postnatal Course - £60</Typography>
+        </AccordionSummary>
+        <AccordionDetails sx={{width: "75%", margin: "0 auto"}}> 
+          <Typography sx={{fontFamily: "League Spartan", fontSize: "18px"}}>
+          1.5 hour
 
           </Typography>
         </AccordionDetails>

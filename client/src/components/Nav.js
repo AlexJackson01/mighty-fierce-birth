@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/mighty-logo.png';
+import Logo from '../assets/images/mighty-logo.png';
 import { NavLink, Link as ReactLink } from "react-router-dom";
 
 

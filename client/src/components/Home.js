@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './Nav';
-import Video from '../videos/about-video.mp4';
+import Video from '../assets/videos/about-video.mp4';
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className="row about">
                 <h2>What is Hypnobirthing?</h2>
-                <p>Hypnobirthing is a full-antenatal education course. It is better than any other birth-prep out there!</p>
+                <p>Hypnobirthing is a full-antenatal education course. It is better than any other birth-prep out there! It is evidence-based and science based, so not a bunch of woowoo.</p>
             </div>
         </div>
         </div>
