@@ -140,3 +140,18 @@ p {
 .tcs {
     text-align: center;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.tcs-link {
+    color: white;
+    text-align: center;
+}
+
+.tcs-link:hover {
+    color: #ec5eb1;
+}
