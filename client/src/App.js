@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <section>
-        {/* <Nav /> */}
+        <Nav />
       </section>
 
       <section>

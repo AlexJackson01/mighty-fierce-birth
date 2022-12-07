@@ -5,15 +5,9 @@ import Nav from '../components/Nav';
 export default function Banner() {
   return (
     <div>
-        <div>
-        <Nav/>
-        </div>
-    <div className="video-banner">
         <video loop autoPlay muted className="video">
             <source src={Video} type="video/mp4" />
         </video>
     </div> 
-    </div>
-
   )
 }

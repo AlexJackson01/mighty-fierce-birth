@@ -5,9 +5,6 @@
 
 .video {
     width: 100%;
-}
-
-.video-banner {
-    position: absolute;
-    grid-area: header;
+    margin-bottom: 50px;
+    height: 75%;
 }
