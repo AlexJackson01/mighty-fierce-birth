@@ -23,7 +23,6 @@ const NavButton = styled(Button)(({ theme }) => ({
   fontFamily: "League Spartan",
   // fontWeight: 600,
   fontSize: "20px",
-  paddingRight: '10px',
   '&:hover': {
     backgroundColor: "#FABFE2",
     textDecoration: "underline"

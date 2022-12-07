@@ -8,3 +8,25 @@
     margin-bottom: 50px;
     height: 75%;
 }
+
+.courses-header {
+    text-align: center;
+    font-family: 'League Spartan';
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.banner-image {
+    width: 100%;
+}
+.courses-wrapper {
+    background-image: url(./assets/images/zebra-print.png);
+    width: 100%;
+    padding: 10px;
+}
+
+.courses-div {
+    background-color: #FABFE2;
+    margin: 20px;
+}

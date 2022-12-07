@@ -21,6 +21,10 @@ function App() {
       <section>
         <Banner />
       </section>
+
+      <section>
+        <Courses />
+      </section>
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
