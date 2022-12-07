@@ -71,7 +71,7 @@ function Nav(props) {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav" sx={{ backgroundColor: "#FABFE2", color: "black" }}>
+      <AppBar component="nav" position="sticky" sx={{ backgroundColor: "#FABFE2", color: "black" }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -104,6 +104,7 @@ function Nav(props) {
           </Box>
         </Toolbar>
       </AppBar>
+      <Toolbar />
       <Box component="nav">
         <Drawer
           container={container}
@@ -118,6 +119,7 @@ function Nav(props) {
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }}
         >
+          
           {drawer}
         </Drawer>
       </Box>

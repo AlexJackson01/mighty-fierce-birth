@@ -3,16 +3,11 @@
     /* width: 50%; */
 }
 
-.Socials {
-    color: white;
-    height: 120px;
+.video {
+    width: 100%;
 }
 
-.Nav-buttons {
-    font-family: 'League Spartan';
-    text-transform: none;
-}
-
-.Button {
-    padding: 20px;
+.video-banner {
+    position: absolute;
+    grid-area: header;
 }

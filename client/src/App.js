@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './components/Nav';
+import Banner from './components/Banner';
 import Home from './components/Home';
 import Courses from './components/Courses';
 import Reviews from './components/Reviews';
@@ -13,7 +14,13 @@ import TermsConditions from './components/TermsConditions';
 function App() {
   return (
     <div>
-      <Nav />
+      <section>
+        {/* <Nav /> */}
+      </section>
+
+      <section>
+        <Banner />
+      </section>
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
