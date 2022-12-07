@@ -1,157 +1,18 @@
-body {
-    font-family: 'League Spartan', sans-serif;
-    background-color: #fcdce3;
-}
-
-.container {
-    padding: 50px;
-}
-
 .logo {
     height: 200px;
-    display: flex;
-    margin: 0 auto;
-    margin-top: -50px;
+    /* width: 50%; */
 }
 
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: white;
-    /* margin-left: 10px; */
-    /* margin: 0px 50px; */
-    padding: 10px;
-    border-bottom: 7px solid #ec5eb1;
-    margin-bottom: 30px;
-    font-size: 18px;
-    
-}
-
-
-.nav-link {
-    color: black;
-    text-decoration-line: none;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    text-decoration: none;
-    color: #ec5eb1;
-}
-
-li {
-    list-style-type: none;
-}
-
-.about-me {
-    background-color: white;
-
-    /* margin-top: 50px; */
-    padding: 50px;
-    
-    
-    margin-left: 20px;
-    margin-right: 20px; 
-}
-
-.row {
-    margin-top: 20px;
-}
-
-.about {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.about-wrap {
-    background-color: black;
-    background-image: url(./assets/images/zebra-print.png);
-    background-size: auto;
-    padding: 20px 0px 20px 0px;
-}
-
-.about-video {
-    height: 400px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-h2 {
-    color: #ec5eb1;
-    text-align: center;
-    padding-bottom: 20px;
-
-}
-
-h4 {
-    color:#ec5eb1;
-    padding-bottom: 10px;
-}
-
-.courses {
-    background-color: white;
-    padding: 70px;
-    margin-left: 20px;
-    margin-right: 20px; 
-    text-align: center;
-}
-
-.accordian {
-    display: block;
-    margin: 0 auto;
-}
-
-.spacing {
-    padding-bottom: 30px;
-}
-
-p {
-    font-size: 18px;
-}
-
-.review {
-    margin-bottom: -200px;
-}
-
-.strike {
-    height: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-.socials {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.tcs-header {
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 20px;
-}
-
-.tcs-section {
-    text-decoration: underline;
-}
-
-.tcs {
-    text-align: center;
-}
-
-.footer {
-    background-color: black;
+.Socials {
     color: white;
+    height: 120px;
+}
+
+.Nav-buttons {
+    font-family: 'League Spartan';
+    text-transform: none;
+}
+
+.Button {
     padding: 20px;
-}
-
-.tcs-link {
-    color: white;
-    text-align: center;
-}
-
-.tcs-link:hover {
-    color: #ec5eb1;
 }
