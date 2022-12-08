@@ -1,18 +1,16 @@
-html {
-    scroll-behavior: smooth;
-}
-
 @font-face {
     font-family: 'Breathing'; /*a name to be used later*/
     src: url('./assets/fonts/Breathing.ttf'); /*URL to font*/
 }
 
-body {
+* {
     font-family: "League Spartan";
+    margin: 0px;
 }
 
 .logo {
     height: 200px;
+    margin-bottom: -50px;
     /* width: 50%; */
 }
 
@@ -28,6 +26,7 @@ body {
     margin-top: -20px;
     color: white;
     margin-bottom: -100px;
+    font-family: "League Spartan";
 }
 
 .banner-text-2 {
@@ -35,6 +34,7 @@ body {
     font-weight: 600;
     font-size: 50px;
     margin-bottom: -30px;
+    font-family: "League Spartan";
 }
 
 .banner-button {
@@ -237,7 +237,9 @@ h1 {
 
 .about-header {
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
+    font-family: "League Spartan";
+    font-weight: 600;
 }
 
 /* ABOUT PAGE */

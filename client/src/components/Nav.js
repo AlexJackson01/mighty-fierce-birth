@@ -19,6 +19,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { NavLink } from 'react-router-dom';
 import Grid from '@mui/material/Grid';
+import ScrollTop from '../components/ScrollTop';
 
 
 const NavButton = styled(Button)(({ theme }) => ({
@@ -73,8 +74,8 @@ function Nav(props) {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav" position="sticky" sx={{ backgroundColor: "#FABFE2", color: "black" }}>
-        <Toolbar>
+      <AppBar sx={{ position: "sticky", backgroundColor: "#FABFE2", color: "black" }}>
+        <Toolbar disableGutters={true} >
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -92,8 +93,8 @@ function Nav(props) {
             <img src={Logo} alt="Mighty Fierce logo" className="logo" />
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            <Grid container spacing={0}>
-            <Grid item xs={12} sm={6} md={12} sx={{ justalignItems: "center", textAlign: "center", paddingRight: "-30px" }}>
+            <Grid container spacing={0} sx={{ paddingTop: "50px" }}>
+            <Grid item xs={12} sm={6} md={12} sx={{ alignItems: "center", textAlign: "center", paddingRight: "-30px" }}>
             {navItems.map((item) => (
               <NavButton key={item} sx={{ color: 'black', textDecoration: "none" }}>
                 <NavLink to={item === "Home" ? "/" : item} style={{ textDecoration: "none", color: "black", fontSize: "30px" }}>
@@ -113,8 +114,9 @@ function Nav(props) {
             </Grid>
           </Box>
         </Toolbar>
+        <ScrollTop />
       </AppBar>
-      <Toolbar />
+      <Toolbar disableGutters={true} />
       <Box component="nav">
         <Drawer
           container={container}
@@ -133,6 +135,7 @@ function Nav(props) {
           {drawer}
         </Drawer>
       </Box>
+
     </Box>
   );
 }

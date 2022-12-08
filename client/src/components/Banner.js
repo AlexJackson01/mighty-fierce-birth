@@ -31,7 +31,7 @@ export default function Banner() {
         </video> */}
 
         <Grid container spacing={0} >
-          <Grid item xs={6} sm={6} md={6} sx={{ backgroundColor: "black", padding: "50px" }}>
+          <Grid item xs={6} sm={6} md={6} sx={{ backgroundColor: "black", padding: "50px", paddingTop: "-100px" }}>
             <div className="banner-text">
                 <h1 className="banner-text-1">You deserve a</h1>
                 <h1 className="banner-text-2">positive birth</h1>
