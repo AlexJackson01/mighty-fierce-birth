@@ -33,7 +33,7 @@ const NavButton = styled(Button)(({ theme }) => ({
 }));
 
 const drawerWidth = 240;
-const navItems = ['Home', 'Courses', 'About', 'Testimonials', 'Contact'];
+const navItems = ['Home', 'Courses', 'About', 'Contact'];
 
 function Nav(props) {
   const { window } = props;

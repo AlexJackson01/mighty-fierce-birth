@@ -10,14 +10,14 @@ const CourseType = styled(Typography)(({ theme }) => ({
   fontFamily: "League Spartan", 
   fontWeight: 600, 
   width: "100%", 
-  fontSize: 20,
+  fontSize: 25,
   color: "white"
 }));
 
 const CourseInfo = styled(Typography)(({ theme }) => ({
   fontFamily: "League Spartan", 
   margin: "0 auto", 
-  fontSize: "18px"
+  fontSize: 20
 }));
 
 

@@ -7,7 +7,7 @@ export default function CoursePage() {
     <div>
         <Nav />
         <div className="courses-wrapper">
-            <div className="courses-div">
+            <div className="course-page-div">
                 <div className="course-info">
                     <p>I offer a range of courses that will be suited to you at affordable prices. These courses are science and evidence based. They focus on the data and the facts!</p>
 

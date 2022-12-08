@@ -6,6 +6,7 @@ import BannerImg from '../assets/images/Banner.png';
 import Button from '@mui/material/Button';
 import { alpha, styled } from '@mui/material/styles';
 import Banner1 from '../assets/images/Banner1.png';  
+import { NavLink } from 'react-router-dom';
 
 
 const BannerButton = styled(Button)(({ theme }) => ({
@@ -34,8 +35,9 @@ export default function Banner() {
             <div className="banner-text">
                 <h1 className="banner-text-1">You deserve a</h1>
                 <h1 className="banner-text-2">positive birth</h1>
+                <NavLink to="/about" style={{ textDecoration: "none" }}>
                 <BannerButton variant="contained" sx={{ display: "flex", alignItems: "center", margin: "0 auto", justifyContent: "center", backgroundColor: "#EC5EB1", textTransform: "none", fontFamily: "League Spartan", fontSize: "20px", marginBottom: "20px"}}>Find out more</BannerButton>
-
+                </NavLink>
             </div>
           </Grid>
 
