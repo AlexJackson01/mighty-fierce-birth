@@ -45,6 +45,10 @@ function App() {
         <Instagram />
       </section>
 
+      <section>
+        <Footer />
+      </section>
+
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />

@@ -7,7 +7,7 @@ export default function Instagram() {
     <div className='container'>
         <h1 className='socials-header'>Follow me:<br />
         @MightyFierceBirth</h1>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: "50px" }}>
             <InstagramEmbed url="https://www.instagram.com/p/CkmOn9cjvXs/" width={328} />
             <InstagramEmbed url="https://www.instagram.com/p/CkmGxXfD3HN/" width={328} />
             <InstagramEmbed url="https://www.instagram.com/p/Cj3jwdAq09w/" width={328} />
