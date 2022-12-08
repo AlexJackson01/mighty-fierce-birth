@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Banner from './components/Banner';
 import Home from './components/Home';
 import Courses from './components/Courses';
+import About from './components/About';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
 import TandCs from './components/TermsConditions';
@@ -25,6 +26,15 @@ function App() {
       <section>
         <Courses />
       </section>
+
+      <section>
+        <About />
+      </section>
+
+      <section>
+        <Reviews />
+      </section>
+
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />

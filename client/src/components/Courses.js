@@ -18,7 +18,7 @@ export default function Courses() {
         <p>Participating in these courses will mean you receive a workbook as well as other useful resources to use during the course. It will also include other useful information / learning resources for after birth!</p>
         <p>Here are some details but feel free to get in touch with any questions or if you’d like something more flexible.</p>
       </div>
-          <Grid container spacing={4} sx={{ justifyContent: "center", textAlign: "center", paddingBottom: "20px" }}>
+          <Grid container spacing={2} sx={{ justifyContent: "center", textAlign: "center", paddingBottom: "20px" }}>
           <Grid item xs={12} sm={6} md={4} lg={3}>
             <div class="flip-card">
               <div class="flip-card-inner">

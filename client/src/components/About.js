@@ -4,12 +4,14 @@ import Video from '../assets/videos/about-video.mp4';
 
 
 
-export default function Reviews() {
+export default function About() {
   return (
-    <div className="reviews-section">
+    <div className="about-section">
         <Grid container spacing={4}>
             <Grid item xs={12} sm={12} md={6}>
-                <h1>Find out what others have said about MFB</h1>
+                <video autoPlay muted className="video">
+                    <source src={Video} type="video/mp4" />
+                </video>
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
                 <h4>Hi I’m Prosha, founder of Mighty Fierce Birth!</h4>
