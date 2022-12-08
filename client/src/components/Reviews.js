@@ -9,7 +9,7 @@ export default function Reviews() {
     <div className="reviews-section">
         <Grid container spacing={4}>
             <Grid item xs={12} sm={12} md={5}>
-                <h1>Find out what others have said about MFB</h1>
+                <h1 className='reviews-h1'>Find out what others have said about MFB</h1>
             </Grid>
             <Grid item xs={12} sm={12} md={7}>
                 <div className="reviews-wrapper">
