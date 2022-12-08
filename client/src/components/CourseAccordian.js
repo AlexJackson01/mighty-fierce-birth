@@ -5,6 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { alpha, styled } from '@mui/material/styles';
+import { Fade } from 'react-reveal';
 
 const CourseType = styled(Typography)(({ theme }) => ({
   fontFamily: "League Spartan", 
@@ -24,6 +25,7 @@ const CourseInfo = styled(Typography)(({ theme }) => ({
 export default function SimpleAccordion() {
   return (
     <div>
+      <Fade bottom>
       <Accordion sx={{margin: "0 auto"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
@@ -114,6 +116,7 @@ export default function SimpleAccordion() {
           <Typography align="center" sx={{fontFamily: "League Spartan", fontWeight: 600, width: "100%", fontSize: 20}}>Full Group Face-to-Face Course (COMING SOON)</Typography>
         </AccordionSummary>
       </Accordion>
+      </Fade>
     </div>
   );
 }

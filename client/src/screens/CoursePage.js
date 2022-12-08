@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import CourseAccordian from '../components/CourseAccordian';
+import { Fade } from 'react-reveal';
 
 export default function CoursePage() {
   return (
@@ -8,6 +9,7 @@ export default function CoursePage() {
         <Nav />
         <div className="courses-wrapper">
             <div className="course-page-div">
+                <Fade bottom>
                 <div className="course-info">
                     <p>I offer a range of courses that will be suited to you at affordable prices. These courses are science and evidence based. They focus on the data and the facts!</p>
 
@@ -15,6 +17,7 @@ export default function CoursePage() {
 
                     <p>Here are some details but feel free to get in touch with any questions or if you’d like something more flexible.</p>
         </div>
+        </Fade>
             <CourseAccordian />
         </div>
         </div>

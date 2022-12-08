@@ -97,7 +97,7 @@ function Nav(props) {
             <Grid item xs={12} sm={6} md={12} sx={{ alignItems: "center", textAlign: "center", paddingRight: "-30px" }}>
             {navItems.map((item) => (
               <NavButton key={item} sx={{ color: 'black', textDecoration: "none" }}>
-                <NavLink to={item === "Home" ? "/" : item} style={{ textDecoration: "none", color: "black", fontSize: "30px" }}>
+                <NavLink to={item === "Home" ? "/" : `/${item}`} style={{ textDecoration: "none", color: "black", fontSize: "30px" }}>
                   {item}
                 </NavLink>
               </NavButton>
