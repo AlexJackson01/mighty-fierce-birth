@@ -135,11 +135,25 @@ h1 {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+    font-weight: 600;
 }
 
 .reviews-section {
     background-color: #FABFE2;
     padding: 50px;
+}
 
+.reviews-wrapper {
+    background-image: url(./assets/images/leopard.png);
+    width: 100%;
+    padding: 10px;
+    background-repeat: initial;
+}
+
+.reviews-div {
+    background-color: #EC5EB1;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
