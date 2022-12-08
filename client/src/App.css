@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .logo {
     height: 200px;
     /* width: 50%; */
@@ -9,17 +13,27 @@
     height: 75%;
 }
 
+.banner-image {
+    width: 100%;
+}
+
 .courses-header {
     text-align: center;
     font-family: 'League Spartan';
     font-size: 60px;
     font-weight: 600;
     margin-top: 70px;
+    padding-bottom: 20px;
 }
 
-.banner-image {
-    width: 100%;
+.courses-info {
+    text-align: center;
+    padding: 40px;
+    font-family: 'League Spartan';
+    font-size: 20px;
 }
+
+
 .courses-wrapper {
     background-image: url(./assets/images/zebra-print.png);
     width: 100%;
@@ -81,6 +95,6 @@
     color: white;
     font-family: 'League Spartan';
     transform: rotateY(180deg);
-    padding: 10px;
+    padding: 20px;
     font-size: 15px;
   }
