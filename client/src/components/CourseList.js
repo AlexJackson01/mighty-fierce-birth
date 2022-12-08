@@ -7,10 +7,13 @@ import Call from '../assets/images/Call.png';
 import Online from '../assets/images/Online.png';
 import Face from '../assets/images/FacetoFace.png';
 import { NavLink } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
+
 
 export default function Courses() {
   return (
     <div className="">
+      <Fade bottom>
       <h1 className="courses-header">Find a Hypnobirthing course that suits you</h1>
       <div className="courses-wrapper">
         <div className="courses-div">
@@ -29,7 +32,8 @@ export default function Courses() {
           </Grid>
           </Grid>
         </div>
-      </div>        
+      </div>  
+      </Fade>      
     </div>
   )
 }
