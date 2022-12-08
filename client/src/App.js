@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Courses from './components/Courses';
 import About from './components/About';
 import Reviews from './components/Reviews';
+import Affirmations from './components/Affirmations';
 import Contact from './components/Contact';
 import TandCs from './components/TermsConditions';
 import Footer from './components/Footer';
@@ -33,6 +34,10 @@ function App() {
 
       <section>
         <Reviews />
+      </section>
+
+      <section>
+        <Affirmations />
       </section>
 
       {/* <Routes>
