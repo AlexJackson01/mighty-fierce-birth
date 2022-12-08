@@ -20,10 +20,41 @@ body {
     width: 100%;
     margin-bottom: 50px;
     height: 75%;
+}   
+
+
+
+.banner-text-1 {
+    margin-top: -20px;
+    color: white;
+    margin-bottom: -100px;
 }
 
-.banner-image {
-    width: 100%;
+.banner-text-2 {
+    color: #EC5EB1;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: -30px;
+}
+
+.banner-button {
+    background-color: #EC5EB1;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.banner-button:hover {
+    background-color: #FABFE2;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
 }
 
 .courses-header {
@@ -31,7 +62,7 @@ body {
     font-family: 'League Spartan';
     font-size: 60px;
     font-weight: 600;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     padding-bottom: 20px;
 }
 
@@ -141,6 +172,8 @@ h4 {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     font-weight: 600;
+    padding: 40px;
+    font-size: 50px;
 }
 
 .reviews-section {
@@ -161,6 +194,10 @@ h4 {
     padding: 20px;
     text-align: center;
 }   
+
+.review-text {
+    padding-bottom: 20px;
+}
 
 .affirmations-section {
     background-color: #EC5EB1;

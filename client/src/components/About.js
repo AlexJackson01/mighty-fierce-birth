@@ -9,7 +9,7 @@ export default function About() {
     <div className="about-section">
         <Grid container spacing={4}>
             <Grid item xs={12} sm={12} md={6}>
-                <video autoPlay muted className="video">
+                <video loop autoPlay muted className="video">
                     <source src={Video} type="video/mp4" />
                 </video>
             </Grid>

@@ -23,14 +23,14 @@ const NavButton = styled(Button)(({ theme }) => ({
   fontFamily: "League Spartan",
   // fontWeight: 600,
   fontSize: "20px",
-  '&:hover': {
-    backgroundColor: "#FABFE2",
-    textDecoration: "underline"
- },
+//   '&:hover': {
+//     backgroundColor: "#FABFE2",
+//     textDecoration: "underline"
+//  },
 }));
 
 const drawerWidth = 240;
-const navItems = ['Courses', 'About', 'Testimonials', 'Contact'];
+const navItems = ['Home', 'Courses', 'About', 'Testimonials', 'Contact'];
 
 function Nav(props) {
   const { window } = props;
