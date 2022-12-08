@@ -17,6 +17,9 @@ import Logo from '../assets/images/mighty-logo.png';
 import { alpha, styled } from '@mui/material/styles';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import { NavLink } from 'react-router-dom';
+import Grid from '@mui/material/Grid';
+
 
 const NavButton = styled(Button)(({ theme }) => ({
   textTransform: "none",
@@ -89,17 +92,25 @@ function Nav(props) {
             <img src={Logo} alt="Mighty Fierce logo" className="logo" />
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+            <Grid container spacing={0}>
+            <Grid item xs={12} sm={6} md={12} sx={{ justalignItems: "center", textAlign: "center", paddingRight: "-30px" }}>
             {navItems.map((item) => (
-              <NavButton key={item} sx={{ color: 'black' }}>
-                {item}
+              <NavButton key={item} sx={{ color: 'black', textDecoration: "none" }}>
+                <NavLink to={item === "Home" ? "/" : item} style={{ textDecoration: "none", color: "black", fontSize: "30px" }}>
+                  {item}
+                </NavLink>
               </NavButton>
             ))}
+            </Grid>
+            <Grid item xs={12} sm={6} md={12} sx={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
             <IconButton href="https://www.instagram.com/mightyfiercebirth/" target="_blank">
               <InstagramIcon fontSize="large" sx={{ color: "black" }} />
             </IconButton>
             <IconButton href="https://www.instagram.com/mightyfiercebirth/" target="_blank">
               <FacebookIcon fontSize="large" sx={{ color: "black" }} />
             </IconButton>
+            </Grid>
+            </Grid>
           </Box>
         </Toolbar>
       </AppBar>

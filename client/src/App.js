@@ -1,8 +1,8 @@
 import './App.css';
 import Nav from './components/Nav';
 import Banner from './components/Banner';
-import Home from './components/Home';
-import Courses from './components/Courses';
+import Home from './screens/HomePage';
+import Courses from './screens/CoursePage';
 import About from './components/About';
 import Reviews from './components/Reviews';
 import Affirmations from './components/Affirmations';
@@ -17,45 +17,13 @@ import TermsConditions from './components/TermsConditions';
 function App() {
   return (
     <div>
-      <section>
-        <Nav />
-      </section>
-
-      <section>
-        <Banner />
-      </section>
-
-      <section>
-        <Courses />
-      </section>
-
-      <section>
-        <About />
-      </section>
-
-      <section>
-        <Reviews />
-      </section>
-
-      <section>
-        <Affirmations />
-      </section>
-
-      <section>
-        <Instagram />
-      </section>
-
-      <section>
-        <Footer />
-      </section>
-
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/testimonials" element={<Reviews />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/t&cs" element={<TandCs />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
