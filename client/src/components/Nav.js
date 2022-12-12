@@ -47,7 +47,7 @@ function Nav(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        <img src={Logo} alt="Mighty Fierce logo" className="logo" />
+        <NavLink to="/"><img src={Logo} alt="Mighty Fierce logo" className="logo" /></NavLink>
       </Typography>
       <Divider />
       <List>
@@ -90,7 +90,7 @@ function Nav(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            <img src={Logo} alt="Mighty Fierce logo" className="logo" />
+            <NavLink to="/"><img src={Logo} alt="Mighty Fierce logo" className="logo" /></NavLink>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             <Grid container spacing={0} sx={{ paddingTop: "50px" }}>
