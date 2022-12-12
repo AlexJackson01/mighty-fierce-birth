@@ -153,6 +153,7 @@ h4 {
     background-image: url(./assets/images/leopard.png);
     width: 100%;
     padding: 10px;
+    margin-bottom: 20px;
     background-repeat: initial;
 }
 
@@ -161,6 +162,7 @@ h4 {
     margin: 20px;
     padding: 20px;
     text-align: center;
+    font-size: 18px;
 }   
 
 .review-text {
@@ -192,6 +194,7 @@ h4 {
     display: block;
     text-align: center;
     margin: 0 auto; 
+    width: 400px;
 }
 
 .affirm-button {

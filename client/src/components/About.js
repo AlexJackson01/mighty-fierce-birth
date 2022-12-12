@@ -1,12 +1,14 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Video from '../assets/videos/about-video.mp4';
+import { Fade } from 'react-reveal';
 
 
 
 export default function About() {
   return (
     <div className="about-section">
+        <Fade bottom>
         <h1 className="about-h1">Hi I’m Prosha, founder of Mighty Fierce Birth!</h1>
         <Grid container spacing={0}>
             <Grid item xs={12} sm={12} md={6}>
@@ -23,6 +25,7 @@ export default function About() {
                 </div>
             </Grid>
         </Grid>
+        </Fade>
     </div>
   )
 }

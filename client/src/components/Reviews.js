@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Grid from '@mui/material/Grid';
-import Video from '../assets/videos/about-video.mp4';
-
+import { Fade } from 'react-reveal';
 
 
 export default function Reviews() {
@@ -12,12 +11,13 @@ export default function Reviews() {
     ])
 
   return (
+    <Fade bottom>
     <div className="reviews-section">
         <Grid container spacing={4}>
-            <Grid item xs={12} sm={12} md={4}>
+            <Grid item xs={12} sm={12} md={5}>
                 <h1 className='reviews-h1'>Find out what others have said about MFB</h1>
             </Grid>
-            <Grid item xs={12} sm={12} md={8}>
+            <Grid item xs={12} sm={12} md={7}>
                 <div className="reviews-wrapper">
                     <div className="reviews-div">
                         {reviews.map((r) => (
@@ -31,5 +31,6 @@ export default function Reviews() {
             </Grid>
         </Grid>
     </div>
+    </Fade>
   )
 }
