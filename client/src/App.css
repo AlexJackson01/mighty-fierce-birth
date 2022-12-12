@@ -233,6 +233,13 @@ h1 {
     padding-bottom: 50px;
 }
 
+.feed {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
 .footer {
     background-color: black;
     padding: 50px;
