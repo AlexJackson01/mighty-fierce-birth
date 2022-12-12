@@ -6,7 +6,7 @@ import { Fade } from 'react-reveal';
 export default function CoursePage() {
   return (
     <div>
-        <Nav />
+        {/* <Nav /> */}
         <div className="courses-wrapper">
             <div className="course-page-div">
                 <Fade bottom>

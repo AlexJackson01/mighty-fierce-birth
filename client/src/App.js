@@ -17,6 +17,7 @@ import TermsConditions from './components/TermsConditions';
 function App() {
   return (
     <div>
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />

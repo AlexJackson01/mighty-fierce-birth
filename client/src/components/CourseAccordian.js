@@ -28,7 +28,7 @@ export default function SimpleAccordion() {
       <Fade bottom>
       <Accordion sx={{margin: "0 auto"}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon fontSize="large" sx={{ color: "white" }} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
           sx={{backgroundColor: "#EC5EB1", margin: "0 auto", padding: "20px"}}
@@ -45,7 +45,7 @@ export default function SimpleAccordion() {
       </Accordion>
       <Accordion sx={{margin: "0 auto"}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon fontSize="large" sx={{ color: "white" }} />}
           aria-controls="panel2a-content"
           id="panel2a-header"
           sx={{backgroundColor: "#EC5EB1", padding: "20px" }}
@@ -68,7 +68,7 @@ export default function SimpleAccordion() {
       </Accordion>
       <Accordion sx={{margin: "0 auto" }}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon fontSize="large" sx={{ color: "white" }} />}
           aria-controls="panel2a-content"
           id="panel2a-header"
           sx={{backgroundColor: "#EC5EB1", padding: "20px" }}
@@ -84,7 +84,7 @@ export default function SimpleAccordion() {
       </Accordion>
       <Accordion sx={{margin: "0 auto" }}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon sx={{ color: "white" }} />}
+          expandIcon={<ExpandMoreIcon fontSize="large" sx={{ color: "white" }} />}
           aria-controls="panel2a-content"
           id="panel2a-header"
           sx={{backgroundColor: "#EC5EB1", padding: "20px" }}

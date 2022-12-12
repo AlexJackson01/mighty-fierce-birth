@@ -12,9 +12,9 @@ import Video from '../assets/videos/about-video.mp4';
 export default function Home() {
   return (
     <div>
-      <section>
+      {/* <section>
         <Nav />
-      </section>
+      </section> */}
 
       <section>
         <Banner />

@@ -5,11 +5,13 @@ import Grid from '@mui/material/Grid';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
+import { Fade } from 'react-reveal';
 
 
 
 export default function Footer() {
   return (
+    <Fade bottom>
     <div className='footer'>
         <Grid container spacing={2}>
         <Grid item xs={4}>
@@ -21,9 +23,10 @@ export default function Footer() {
                 <p><PhoneAndroidIcon fontSize="large" sx={{color: "white"}} /> 07519 954715</p>
         </Grid>
         <Grid item xs={4}>
-        <NavLink to="/t&cs" className="tcs-link" style={{ color: "white", fontFamily: "League Spartan", listStyleType: "none", fontSize: "20px", justifyContent: "center", alignItems: "center" }}><li className="tcs-link">Terms & Conditions</li></NavLink>
+        <NavLink to="/t&cs" className="tcs-link" style={{ color: "white", fontFamily: "League Spartan", listStyleType: "none", fontSize: "20px", justifyContent: "center", textAlign: "center" }}><li className="tcs-link">Terms & Conditions</li></NavLink>
         </Grid>
         </Grid>
     </div>
+    </Fade>
   )
 }

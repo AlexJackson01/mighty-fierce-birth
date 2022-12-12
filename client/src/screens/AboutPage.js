@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal';
 export default function AboutPage() {
   return (
     <div>
-        <Nav />
+        {/* <Nav /> */}
         <Fade bottom>
             <h1 className='about-header'>What is Hypnobirthing?</h1>
             <div className='about-pg-div'>
