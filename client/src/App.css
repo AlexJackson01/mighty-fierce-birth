@@ -177,7 +177,7 @@ h4 {
 .affirmation {
     font-family: "Breathing";
     padding-left: 50px;
-    /* padding-right: 50px; */
+    padding-right: 50px;
     padding-top: 50px;
     text-align: center;
     font-size: 50px;
@@ -236,6 +236,15 @@ h1 {
 .footer {
     background-color: black;
     padding: 50px;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer img {
+    height: 150px;
+    /* width: 50%; */
 }
 
 /* COURSES PAGE */
