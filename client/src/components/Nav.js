@@ -62,7 +62,7 @@ function Nav(props) {
             <IconButton href="https://www.instagram.com/mightyfiercebirth/" target="_blank">
               <InstagramIcon fontSize="large" sx={{ color: "black" }} />
             </IconButton>
-            <IconButton href="https://www.instagram.com/mightyfiercebirth/" target="_blank">
+            <IconButton href="https://www.facebook.com/mightyfiercebirth/" target="_blank">
               <FacebookIcon fontSize="large" sx={{ color: "black" }} />
             </IconButton>
         </ListItem>
@@ -107,7 +107,7 @@ function Nav(props) {
             <IconButton href="https://www.instagram.com/mightyfiercebirth/" target="_blank">
               <InstagramIcon fontSize="large" sx={{ color: "black" }} />
             </IconButton>
-            <IconButton href="https://www.instagram.com/mightyfiercebirth/" target="_blank">
+            <IconButton href="https://www.facebook.com/mightyfiercebirth/" target="_blank">
               <FacebookIcon fontSize="large" sx={{ color: "black" }} />
             </IconButton>
             </Grid>

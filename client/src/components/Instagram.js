@@ -1,5 +1,7 @@
 import React from 'react';
 import { InstagramEmbed } from 'react-social-media-embed';
+import "@ptkdev/webcomponent-instagram-widget";
+
 
 
 export default function Instagram() {
@@ -7,6 +9,7 @@ export default function Instagram() {
     <div className=''>
         <h1 className='socials-header'>Follow me:<br />
         @MightyFierceBirth</h1>
+        <instagram-widget username="@mightyfiercebirth" grid="3x3"></instagram-widget>
         <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: "50px" }}>
             {/* <InstagramEmbed url="https://www.instagram.com/p/CkmOn9cjvXs/"  /> */}
             {/* <InstagramEmbed url="https://www.instagram.com/p/CkmGxXfD3HN/" width={328} />
