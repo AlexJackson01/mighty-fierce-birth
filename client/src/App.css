@@ -281,10 +281,29 @@ h1 {
 
 .about-pg-div {
     background-color: #FABFE2;
-    margin: 50px;
+    margin: 20px 100px 0px 100px;
     text-align: center;
     padding: 50px;
     font-size: 30px;
+}
+
+.about-pg-div p {
+    padding: 10px;
+}
+
+.about-banner {
+    width: 40%;
+    display: block;
+    /* padding-top: 20px; */
+    margin: 0 auto;
+}
+
+.about-wrapper {
+    background-image: url(./assets/images/leopard.png);
+    /* width: 100%; */
+    margin: 20px 100px 0px 100px;
+    padding-top: -20px;
+    /* padding: 10px; */
 }
 
     
