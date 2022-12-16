@@ -135,7 +135,7 @@ export default function SimpleAccordion () {
             </Typography>
           </AccordionSummary>
         </Accordion>
-        <Accordion disabled sx={{ margin: '0 auto' }}>
+        <Accordion disabled sx={{ margin: '0 auto', marginBottom: "100px" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls='panel3a-content'

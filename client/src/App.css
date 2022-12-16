@@ -271,10 +271,26 @@ h1 {
 }
 
 .about-header {
-    margin-top: 20px;
-    margin-bottom: -30px;
+    /* margin-top: 20px; */
+    /* margin-bottom: -30px; */
     font-family: "League Spartan";
     font-weight: 600;
+}
+
+.extras-header {
+    font-family: "League Spartan";
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.extras-div {
+    background-color: #FABFE2;
+    padding: 20px;
+}
+
+.extras-div p {
+    font-family: "League Spartan";
+    font-size: 25px;
 }
 
 /* ABOUT PAGE */
@@ -304,6 +320,17 @@ h1 {
     margin: 20px 100px 0px 100px;
     padding-top: -20px;
     /* padding: 10px; */
+}
+
+.selfie-div {
+    display: block;
+    margin: 0 auto;
+}
+
+.selfie {
+    width: 75%;
+    /* height: 500px; */
+    padding-bottom: 50px;
 }
 
     

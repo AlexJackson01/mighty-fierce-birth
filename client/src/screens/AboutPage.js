@@ -9,7 +9,6 @@ export default function AboutPage () {
     <div>
       {/* <Nav /> */}
       <Fade bottom>
-        {/* <h1 className='about-header'>What is Hypnobirthing?</h1> */}
         <div className='about-wrapper'>
         <img src={Banner} alt="What is hypnobirthing banner" className="about-banner" />
         </div>
