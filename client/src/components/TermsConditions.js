@@ -1,13 +1,11 @@
 import React from 'react'
 import Nav from './Nav'
 import Video from '../assets/videos/about-video.mp4'
+import Footer from './Footer'
 
 export default function TermsConditions () {
   return (
-    <div className='container'>
-      <div>
-        <Nav />
-      </div>
+    <div>
       <div className='about-wrap'>
         <div className='about-me tcs'>
           <h3 className='tcs-header'>Terms and Conditions</h3>
@@ -82,6 +80,7 @@ export default function TermsConditions () {
             Email: mightyfiercebirth@gmail.com
           </p>
         </div>
+        <Footer />
       </div>
     </div>
   )

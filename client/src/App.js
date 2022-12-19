@@ -7,7 +7,7 @@ import About from './screens/AboutPage';
 import Reviews from './components/Reviews';
 import Affirmations from './components/Affirmations';
 import Instagram from './components/Instagram';
-import Contact from './components/Contact';
+import Contact from './screens/ContactPage';
 import TandCs from './components/TermsConditions';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
