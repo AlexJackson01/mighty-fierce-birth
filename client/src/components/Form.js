@@ -54,14 +54,12 @@ export default function Form() {
       </Box>
     </Box>
     <Box
-      component="form"
       sx={{
         '& .MuiTextField-root': { m: 1, width: '25ch' }, color: "black", display: "flex", justifyContent: "center", alignItems: 'center', paddingBottom: "20px",
       }}
       noValidate
       autoComplete="off"
     >    
-      <div> 
         <ContactText
           id="standard-multiline-static"
           label="Message"
@@ -69,9 +67,7 @@ export default function Form() {
           multiline
           rows={4}
           variant="standard"
-          sx={{color: "white"}}
         />
-      </div>
     </Box>
       <p>
           <Button type="submit" variant="contained" size="large" sx={{textTransform: "none", fontSize: 20, fontFamily: "League Spartan", textAlign: "center", margin: "0 auto", display: "block", backgroundColor: "#EC5EB1", marginBottom: "20px",   '&:hover': {
