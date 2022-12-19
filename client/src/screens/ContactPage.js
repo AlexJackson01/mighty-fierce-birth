@@ -20,8 +20,8 @@ import { Fade } from 'react-reveal'
 export default function ContactPage () {
   return (
     <div>
-      <Fade bottom>
     <div className='contact-page'>
+    <Fade bottom>
           <h2>Contact</h2>
       <Grid container spacing={2} sx={{ paddingBottom: 3 }}>
           <Grid item xs={12} sm={6} md={6}>
@@ -69,10 +69,10 @@ export default function ContactPage () {
         </Paper>
 </Grid>
 </Grid>
+</Fade>
 
     </div>
           <Footer />
-          </Fade>
 </div>
   )
 }
