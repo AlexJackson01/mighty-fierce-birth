@@ -47,16 +47,32 @@ function Nav (props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant='h6' sx={{ my: 2 }}>
         <NavLink to='/'>
-          <img src={Logo} alt='Mighty Fierce logo' className='logo' />
+          <img src={Logo} alt='Mighty Fierce logo' className='logo-drawer' />
         </NavLink>
       </Typography>
       <Divider />
       <List>
         {navItems.map(item => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
+          <ListItem
+            key={item}
+            disablePadding
+            sx={{ textAlign: 'center', justifyContent: 'center' }}
+          >
+            <NavLink
+              to={item === 'Home' ? '/' : `/${item}`}
+              style={{
+                textDecoration: 'none',
+                color: 'black',
+                fontSize: '30px',
+                textAlign: 'center',
+                justifyContent: 'center',
+                alignItems: 'center'
+              }}
+            >
+              <ListItemButton>
+                <ListItemText primary={item} />
+              </ListItemButton>
+            </NavLink>
           </ListItem>
         ))}
         <ListItem sx={{ textAlign: 'center', justifyContent: 'center' }}>
@@ -91,9 +107,9 @@ function Nav (props) {
             aria-label='open drawer'
             edge='start'
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
+            sx={{ mr: 2, display: { sm: 'none' }, marginLeft: "10px" }}
           >
-            <MenuIcon />
+            <MenuIcon fontSize="large" />
           </IconButton>
           <Typography
             variant='h6'
