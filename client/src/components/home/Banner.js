@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
 import Video from '../assets/videos/Banner.mp4'
-import Nav from '../components/Nav'
+import Nav from '../Nav'
 import BannerImg from '../assets/images/Banner.png'
 import Button from '@mui/material/Button'
 import { alpha, styled } from '@mui/material/styles'
