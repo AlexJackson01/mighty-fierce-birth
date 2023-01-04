@@ -1,7 +1,9 @@
 import * as React from 'react'
+import '../App.css'
 import PropTypes from 'prop-types'
 import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
+import CssBaseline from '@mui/material/CssBaseline'
 import Divider from '@mui/material/Divider'
 import Drawer from '@mui/material/Drawer'
 import IconButton from '@mui/material/IconButton'
@@ -14,40 +16,33 @@ import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 import Logo from '../assets/images/mighty-logo.png'
-import { alpha, styled } from '@mui/material/styles'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import { NavLink } from 'react-router-dom'
-import Grid from '@mui/material/Grid'
-import ScrollTop from '../components/ScrollTop'
-
-const NavButton = styled(Button)(({ theme }) => ({
-  textTransform: 'none',
-  fontFamily: 'League Spartan',
-  // fontWeight: 600,
-  fontSize: '20px'
-  //   '&:hover': {
-  //     backgroundColor: "#FABFE2",
-  //     textDecoration: "underline"
-  //  },
-}))
 
 const drawerWidth = 240
-const navItems = ['Home', 'Courses', 'About', 'Contact']
+const navItems = ['About', 'Courses', 'Testimonials', 'Contact']
 
 function Nav (props) {
   const { window } = props
   const [mobileOpen, setMobileOpen] = React.useState(false)
 
   const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen)
+    setMobileOpen(prevState => !prevState)
   }
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant='h6' sx={{ my: 2 }}>
+    <Box
+      onClick={handleDrawerToggle}
+      sx={{
+        textAlign: 'center',
+        backgroundColor: '#FCFBF6',
+        background: '100vh'
+      }}
+    >
+      <Typography variant='h6' sx={{ my: 2, paddingTop: 5 }}>
         <NavLink to='/'>
-          <img src={Logo} alt='Mighty Fierce logo' className='logo-drawer' />
+          <img src={Logo} className='logo' alt='Mighty Fierce Birth Logo logo' />
         </NavLink>
       </Typography>
       <Divider />
@@ -59,36 +54,30 @@ function Nav (props) {
             sx={{ textAlign: 'center', justifyContent: 'center' }}
           >
             <NavLink
-              to={item === 'Home' ? '/' : `/${item}`}
+              to={item.toLowerCase()}
               style={{
                 textDecoration: 'none',
+                textTransform: 'none',
                 color: 'black',
-                fontSize: '30px',
-                textAlign: 'center',
-                justifyContent: 'center',
-                alignItems: 'center'
+                fontFamily: 'Cutive',
+                fontSize: 20
               }}
             >
-              <ListItemButton>
+              <ListItemButton sx={{ textAlign: 'center' }}>
                 <ListItemText primary={item} />
               </ListItemButton>
             </NavLink>
           </ListItem>
         ))}
-        <ListItem sx={{ textAlign: 'center', justifyContent: 'center' }}>
-          <IconButton
-            href='https://www.instagram.com/mightyfiercebirth/'
-            target='_blank'
-          >
-            <InstagramIcon fontSize='large' sx={{ color: 'black' }} />
-          </IconButton>
-          <IconButton
-            href='https://www.facebook.com/mightyfiercebirth/'
-            target='_blank'
-          >
-            <FacebookIcon fontSize='large' sx={{ color: 'black' }} />
-          </IconButton>
-        </ListItem>
+        <IconButton
+          href='https://www.instagram.com/mightyfiercebirth/'
+          target='_blank'
+        >
+          <InstagramIcon fontSize='large' sx={{ color: 'black' }} />
+        </IconButton>
+        <IconButton href='https://www.facebook.com/mightyfiercebirth/' target='_blank'>
+          <FacebookIcon fontSize='large' sx={{ color: 'black' }} />
+        </IconButton>
       </List>
     </Box>
   )
@@ -98,90 +87,88 @@ function Nav (props) {
 
   return (
     <Box sx={{ display: 'flex' }}>
+      <CssBaseline />
       <AppBar
-        sx={{ position: 'sticky', backgroundColor: '#FABFE2', color: 'black' }}
+        sx={{
+          position: 'sticky',
+          backgroundColor: '#FABFE2',
+          color: 'black',
+          height: 180,
+          justifyContent: 'center'
+        }}
       >
-        <Toolbar disableGutters={true}>
+        <Toolbar sx={{ justifyContent: 'space-between' }}>
           <IconButton
             color='inherit'
             aria-label='open drawer'
             edge='start'
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }, marginLeft: "10px" }}
+            sx={{ mr: 2, display: { md: 'none' } }}
           >
-            <MenuIcon fontSize="large" />
+            <MenuIcon fontSize='large' />
           </IconButton>
+          <Typography sx={{ display: { md: 'none' }, paddingRight: 5 }}>
+            <NavLink to='/'>
+              <img src={Logo} className='logo' alt='Pesky Kidd logo' />
+            </NavLink>
+          </Typography>
+          <Typography sx={{ display: { md: 'none' } }}>
+            {/* <h1 className='nav-heading'>Pesky Kidd</h1> */}
+          </Typography>
           <Typography
             variant='h6'
             component='div'
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{
+              flexGrow: 1,
+              display: { xs: 'none', sm: 'none', md: 'block' }
+            }}
           >
-            <NavLink to='/'>
-              <img src={Logo} alt='Mighty Fierce logo' className='logo' />
-            </NavLink>
+            <Box
+              sx={{
+                display: 'flex',
+                justifyContent: 'flex-start',
+                alignItems: 'center'
+              }}
+            >
+              <NavLink to='/'>
+                <img src={Logo} className='logo' alt='Mighty Fierce Birth logo' />
+              </NavLink>
+            </Box>
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            <Grid container spacing={0} sx={{ paddingTop: '50px' }}>
-              <Grid
-                item
-                xs={12}
-                sm={6}
-                md={12}
-                sx={{
-                  alignItems: 'center',
-                  textAlign: 'center',
-                  paddingRight: '-30px'
-                }}
-              >
-                {navItems.map(item => (
-                  <NavButton
-                    key={item}
-                    sx={{ color: 'black', textDecoration: 'none' }}
-                  >
-                    <NavLink
-                      to={item === 'Home' ? '/' : `/${item}`}
-                      style={{
-                        textDecoration: 'none',
-                        color: 'black',
-                        fontSize: '30px'
-                      }}
-                    >
-                      {item}
-                    </NavLink>
-                  </NavButton>
-                ))}
-              </Grid>
-              <Grid
-                item
-                xs={12}
-                sm={6}
-                md={12}
-                sx={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  textAlign: 'center'
-                }}
-              >
-                <IconButton
-                  href='https://www.instagram.com/mightyfiercebirth/'
-                  target='_blank'
+          <Box sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
+            {navItems.map(item => (
+              <Button key={item}>
+                <NavLink
+                  to={item.toLowerCase()}
+                  style={{
+                    textDecoration: 'none',
+                    textTransform: 'none',
+                    color: 'black',
+                    fontFamily: 'League Spartan',
+                    fontSize: 22,
+                    fontWeight: "bold"
+                  }}
                 >
-                  <InstagramIcon fontSize='large' sx={{ color: 'black' }} />
-                </IconButton>
-                <IconButton
-                  href='https://www.facebook.com/mightyfiercebirth/'
-                  target='_blank'
-                >
-                  <FacebookIcon fontSize='large' sx={{ color: 'black' }} />
-                </IconButton>
-              </Grid>
-            </Grid>
+                  {item}
+                </NavLink>
+              </Button>
+            ))}
+            <IconButton
+              href='https://www.instagram.com/mightyfiercebirth/'
+              target='_blank'
+            >
+              <InstagramIcon fontSize='large' sx={{ color: 'black' }} />
+            </IconButton>
+            <IconButton
+              href='https://www.facebook.com/mightyfiercebirth/'
+              target='_blank'
+            >
+              <FacebookIcon fontSize='large' sx={{ color: 'black' }} />
+            </IconButton>
+  
           </Box>
         </Toolbar>
-        <ScrollTop />
       </AppBar>
-      <Toolbar disableGutters={true} />
       <Box component='nav'>
         <Drawer
           container={container}
@@ -192,7 +179,7 @@ function Nav (props) {
             keepMounted: true // Better open performance on mobile.
           }}
           sx={{
-            display: { xs: 'block', sm: 'none' },
+            display: { xs: 'block', sm: 'block', md: 'none' },
             '& .MuiDrawer-paper': {
               boxSizing: 'border-box',
               width: drawerWidth
