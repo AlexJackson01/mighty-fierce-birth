@@ -35,7 +35,7 @@ export default function CoursePage () {
               </p>
             </div>
             <CourseAccordian />
-            <Grid container spacing={0}>
+            <Grid container spacing={4}>
               <Grid item xs={12} sm={12} md={6}>
                 <div className='selfie-div'>
                   <img

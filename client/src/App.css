@@ -79,7 +79,7 @@
 .courses-header {
     text-align: center;
     font-family: 'League Spartan';
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     /* margin-top: 70px; */
     padding-bottom: 30px;
@@ -326,7 +326,7 @@ h1 {
 }
 
 .about-banner {
-    width: 40%;
+    width: 50%;
     display: block;
     /* padding-top: 20px; */
     margin: 0 auto;

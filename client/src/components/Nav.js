@@ -21,7 +21,7 @@ import FacebookIcon from '@mui/icons-material/Facebook'
 import { NavLink } from 'react-router-dom'
 
 const drawerWidth = 240
-const navItems = ['About', 'Courses', 'Testimonials', 'Contact']
+const navItems = ['Home', 'Courses', 'About', 'Contact']
 
 function Nav (props) {
   const { window } = props
