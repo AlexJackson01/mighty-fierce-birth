@@ -32,13 +32,15 @@ export default function Banner () {
         <Grid container spacing={0}>
           <Grid
             item
-            xs={6}
-            sm={6}
-            md={6}
+            md={12}
             sx={{
               backgroundColor: 'black',
               padding: '50px',
-              paddingTop: '-100px'
+              paddingTop: '-100px',
+              paddingmarginBottom: '20px',
+              backgroundImage: 'url(' + Banner1 + ')',
+              backgroundSize: 'cover',
+              width: '100%'
             }}
           >
             <div className='banner-text'>
@@ -65,10 +67,10 @@ export default function Banner () {
             </div>
           </Grid>
 
-          <Grid
+          {/* <Grid
             item
-            xs={6}
-            sm={6}
+            xs={12}
+            sm={12}
             md={6}
             sx={{
               backgroundColor: 'black',
@@ -78,8 +80,10 @@ export default function Banner () {
               width: '100%'
             }}
           >
-            <div className='banner-image'></div>
-          </Grid>
+            <div>
+              <img src={Banner1} className="banner-image" />
+            </div>
+          </Grid> */}
         </Grid>
       </Fade>
     </div>

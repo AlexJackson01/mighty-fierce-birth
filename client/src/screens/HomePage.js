@@ -39,6 +39,10 @@ export default function Home () {
       <section>
         <Instagram />
       </section>
+
+      <section>
+        <Footer />
+      </section>
     </div>
   )
 }

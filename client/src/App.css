@@ -25,6 +25,20 @@
     height: 75%;
 }   
 
+.banner-image {
+    background-color: 'black';
+    margin-bottom: '20px';
+
+    width: 100vw;
+    height: 350px;
+}
+
+.banner-text {
+    /* height: 250px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
 
 
 .banner-text-1 {

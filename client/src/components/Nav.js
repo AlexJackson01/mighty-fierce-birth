@@ -146,7 +146,6 @@ function Nav (props) {
                     color: 'black',
                     fontFamily: 'League Spartan',
                     fontSize: 22,
-                    fontWeight: "bold"
                   }}
                 >
                   {item}
