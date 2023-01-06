@@ -9,7 +9,7 @@
 }
 
 .logo {
-    height: 180px;
+    height: 20vh;
     /* margin-bottom: -50px; */
     /* width: 50%; */
 }
@@ -21,6 +21,7 @@
 .about-photo {
     height: 70vmin;
     margin: 0 auto;
+    padding-top: 30px;
 
 }
 
@@ -139,7 +140,7 @@
 }
 
 .about-section {
-    padding: 50px;
+    padding: 20px;
     /* margin-top: 50px; */
 }
 
@@ -187,7 +188,9 @@ h4 {
 
 .reviews-section {
     background-color: #FABFE2;
-    padding: 50px;
+    
+    margin-bottom: -20px;
+    /* padding: 50px; */
 }
 
 .reviews-wrapper {
@@ -303,8 +306,8 @@ h1 {
 
 .course-info {
     text-align: center;
-    padding: 50px;
-    font-size: 25px;
+    padding: 20px;
+    font-size: 2.5vh;
 }
 
 .course-page-div {
@@ -330,7 +333,7 @@ h1 {
     /* font-size: 40px; */
     font-weight: 600;
     padding: 20px;
-    margin: 30px;
+    margin: 10px;
 }
 
 .extras-div {
@@ -350,8 +353,8 @@ h1 {
     background-color: #FABFE2;
     margin: 20px;
     text-align: center;
-    padding: 50px;
-    font-size: 2.5vh;
+    padding: 20px;
+    font-size: 2vh;
 }
 
 .about-pg-div p {
@@ -359,7 +362,7 @@ h1 {
 }
 
 .about-banner {
-    width: 80vmin;
+    width: 70vmin;
     display: block;
     /* margin-top: 20px; */
     padding-top: 20px;
@@ -368,6 +371,8 @@ h1 {
 
 .about-wrapper {
     background-image: url(./assets/images/leopard.png);
+    background-size: contain;
+    background-repeat: repeat;
     /* width: 100%; */
     margin: 20px 100px 0px 100px;
     padding-top: -20px;
