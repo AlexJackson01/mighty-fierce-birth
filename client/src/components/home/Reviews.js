@@ -30,8 +30,8 @@ export default function Reviews () {
               <div className='reviews-div'>
                 {reviews.map(r => (
                   <div>
-                    <p>{r.review}</p>
-                    <h5 className='review-text'>- {r.name}</h5>
+                    <h4>{r.review}</h4>
+                    <h4 className='review-text'>- {r.name}</h4>
                   </div>
                 ))}
               </div>
