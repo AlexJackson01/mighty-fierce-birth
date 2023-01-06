@@ -6,9 +6,9 @@ import Footer from './Footer'
 export default function TermsConditions () {
   return (
     <div>
-      <div className='about-wrap'>
-        <div className='about-me tcs'>
-          <h3 className='tcs-header'>Terms and Conditions</h3>
+      <div className='courses-wrapper'>
+        <div className='course-page-div tandcs'>
+          <h3 className='courses-header'>Terms and Conditions</h3>
           <p>
             Thank you for booking a course with Mighty Fierce Birth! I am
             excited to share this journey with you.
@@ -84,7 +84,6 @@ export default function TermsConditions () {
             Email: mightyfiercebirth@gmail.com
           </p>
         </div>
-        <Footer />
       </div>
     </div>
   )

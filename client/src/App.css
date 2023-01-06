@@ -294,7 +294,7 @@ h1 {
 
 .footer p {
     color: white;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
 .footer img {
@@ -308,6 +308,15 @@ h1 {
     text-align: center;
     padding: 20px;
     font-size: 2.5vh;
+}
+
+.tandcs {
+    padding: 20px;
+}
+
+.tandcs h4 {
+    margin-bottom: -10px;
+    padding-top: 20px;
 }
 
 .course-page-div {
@@ -362,7 +371,7 @@ h1 {
 }
 
 .about-banner {
-    width: 70vmin;
+    width: 50vh;
     display: block;
     /* margin-top: 20px; */
     padding-top: 20px;
