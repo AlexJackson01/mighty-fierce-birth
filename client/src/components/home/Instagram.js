@@ -1,7 +1,7 @@
 import React from 'react'
 import { InstagramEmbed } from 'react-social-media-embed'
 import '@ptkdev/webcomponent-instagram-widget'
-import Insta from '../assets/images/Insta.png'
+import Insta from '../../assets/images/Insta.png'
 import { NavLink } from 'react-router-dom'
 import { Fade } from 'react-reveal'
 

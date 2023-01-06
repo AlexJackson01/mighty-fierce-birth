@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from '../components/Nav'
 import { Fade } from 'react-reveal';
 import Banner from '../assets/images/About-banner.png';
 import Footer from '../components/Footer';
@@ -42,6 +41,7 @@ export default function AboutPage () {
             the way we do - more important how we can change that mindset.
           </p>
         </div>
+        <Footer />
       </Fade>
     </div>
   )

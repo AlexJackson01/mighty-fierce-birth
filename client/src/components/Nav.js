@@ -139,7 +139,7 @@ function Nav (props) {
             {navItems.map(item => (
               <Button key={item}>
                 <NavLink
-                  to={item.toLowerCase()}
+                  to={item === "Home" ? "/" : `/${item}`}
                   style={{
                     textDecoration: 'none',
                     textTransform: 'none',

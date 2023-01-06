@@ -1,12 +1,11 @@
 import React from 'react'
-import Nav from '../components/Nav'
 import { Grid } from '@mui/material'
 import Paper from '@mui/material/Paper'
 import Photo from '../assets/images/prosha2.jpg'
 import Footer from '../components/Footer'
 import Form from '../components/contact/Form'
 import { Fade } from 'react-reveal'
-import Socials from '../components/Socials'
+import Socials from '../components/contact/Socials'
 
 export default function ContactPage () {
   return (

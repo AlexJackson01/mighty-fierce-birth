@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import Video from '../assets/videos/about-video.mp4'
+import Video from '../../assets/videos/about-video.mp4'
 import { Fade } from 'react-reveal'
 
 export default function About () {

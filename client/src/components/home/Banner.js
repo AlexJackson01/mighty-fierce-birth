@@ -1,11 +1,8 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import Video from '../assets/videos/Banner.mp4'
-import Nav from '../Nav'
-import BannerImg from '../assets/images/Banner.png'
 import Button from '@mui/material/Button'
 import { alpha, styled } from '@mui/material/styles'
-import Banner1 from '../assets/images/Banner1.png'
+import Banner1 from '../../assets/images/Banner1.png'
 import { NavLink } from 'react-router-dom'
 import { Fade } from 'react-reveal'
 

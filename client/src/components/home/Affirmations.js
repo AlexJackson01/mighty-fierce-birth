@@ -1,7 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import Video from '../assets/videos/about-video.mp4'
-import Flower from '../assets/images/flower.png'
+import Flower from '../../assets/images/flower.png'
 import { Fade } from 'react-reveal'
 
 export default function Affirmations () {
