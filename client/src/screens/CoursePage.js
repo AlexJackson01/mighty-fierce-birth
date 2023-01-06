@@ -35,8 +35,6 @@ export default function CoursePage () {
           </Fade>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

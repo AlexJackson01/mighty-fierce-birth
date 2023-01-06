@@ -309,8 +309,12 @@ h1 {
 .course-page-div {
     background-color: white;
     margin: 20px;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
+}
+
+.course-page-div p {
+    font-size: 2vh;
 }
 
 .about-header {
@@ -322,18 +326,21 @@ h1 {
 
 .extras-header {
     font-family: "League Spartan";
-    font-size: 40px;
+    /* font-size: 40px; */
     font-weight: 600;
+    padding: 20px;
+    margin: 30px;
 }
 
 .extras-div {
     background-color: #FABFE2;
     padding: 20px;
+    margin: 20px;
 }
 
 .extras-div p {
     font-family: "League Spartan";
-    font-size: 25px;
+    font-size: 2vh;
 }
 
 /* ABOUT PAGE */
@@ -371,9 +378,9 @@ h1 {
 }
 
 .selfie {
-    width: 75%;
+    width: 70%;
     /* height: 500px; */
-    padding-bottom: 50px;
+    /* padding-bottom: 20px; */
 }
 
 .footer p {

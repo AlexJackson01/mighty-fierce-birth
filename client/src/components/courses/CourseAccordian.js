@@ -18,14 +18,14 @@ const CourseType = styled(Typography)(({ theme }) => ({
 const CourseInfo = styled(Typography)(({ theme }) => ({
   fontFamily: 'League Spartan',
   margin: '0 auto',
-  fontSize: 20
+  fontSize: "3vmin"
 }))
 
 export default function SimpleAccordion () {
   return (
     <div>
       <Fade bottom>
-        <Accordion sx={{ margin: '0 auto' }}>
+        <Accordion sx={{ paddingLeft: 2, paddingRight: 2, margin: '0 auto' }}>
           <AccordionSummary
             expandIcon={
               <ExpandMoreIcon fontSize='large' sx={{ color: 'white' }} />
@@ -51,7 +51,7 @@ export default function SimpleAccordion () {
             </CourseInfo>
           </AccordionDetails>
         </Accordion>
-        <Accordion sx={{ margin: '0 auto' }}>
+        <Accordion sx={{ paddingLeft: 2, paddingRight: 2, margin: '0 auto' }}>
           <AccordionSummary
             expandIcon={
               <ExpandMoreIcon fontSize='large' sx={{ color: 'white' }} />
@@ -84,7 +84,7 @@ export default function SimpleAccordion () {
             </CourseInfo>
           </AccordionDetails>
         </Accordion>
-        <Accordion sx={{ margin: '0 auto' }}>
+        <Accordion sx={{ paddingLeft: 2, paddingRight: 2, margin: '0 auto' }}>
           <AccordionSummary
             expandIcon={
               <ExpandMoreIcon fontSize='large' sx={{ color: 'white' }} />
@@ -101,7 +101,7 @@ export default function SimpleAccordion () {
             <CourseInfo>1.5 hour</CourseInfo>
           </AccordionDetails>
         </Accordion>
-        <Accordion sx={{ margin: '0 auto' }}>
+        <Accordion sx={{ paddingLeft: 2, paddingRight: 2, margin: '0 auto' }}>
           <AccordionSummary
             expandIcon={
               <ExpandMoreIcon fontSize='large' sx={{ color: 'white' }} />
