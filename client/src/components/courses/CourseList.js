@@ -6,6 +6,7 @@ import Postnatal from '../../assets/images/Postnatal.png'
 import Call from '../../assets/images/Call.png'
 import { NavLink } from 'react-router-dom'
 import Fade from 'react-reveal/Fade'
+import { Box } from '@mui/system'
 
 export default function Courses () {
   return (
@@ -18,7 +19,7 @@ export default function Courses () {
           <div className='courses-div'>
             <Grid
               container
-              spacing={2}
+              spacing={0}
               sx={{
                 justifyContent: 'center',
                 textAlign: 'center',
@@ -26,41 +27,77 @@ export default function Courses () {
                 paddingBottom: '20px'
               }}
             >
-              <Grid item xs={12} sm={12} md={4} lg={3}>
-                <NavLink to='/courses'>
-                  <img
-                    src={Private}
-                    alt='Private Full Course option'
-                    className='course-options'
-                  />
-                </NavLink>
+              <Grid item xs={12} sm={12} md={6} lg={6} sx={{display: "flex", justifyContent: "space-around", alignItems: "center", flexWrap: "wrap"}}>
+                <Box
+                  sx={{
+                    height: '300px',
+                    width: "300px",
+                    backgroundImage: 'url(' + Private + ')',
+                    backgroundSize: 'cover',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                  }}
+                >
+                  <NavLink to='/courses' style={{ textDecoration: 'none' }}>
+                    <div className='course-bg'>
+                      <h1 className='course-text'>Private Full Course</h1>
+                    </div>
+                  </NavLink>
+                </Box>
+                <Box
+                  sx={{
+                    height: '300px',
+                    width: "300px",
+                    backgroundImage: 'url(' + Express + ')',
+                    backgroundSize: 'cover',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                  }}
+                >
+                  <NavLink to='/courses' style={{ textDecoration: 'none' }}>
+                    <div className='course-bg'>
+                      <h1 className='course-text'>Hypnobirthing Express</h1>
+                    </div>
+                  </NavLink>
+                </Box>
               </Grid>
-              <Grid item xs={12} sm={12} md={4} lg={3}>
-                <NavLink to='/courses'>
-                  <img
-                    src={Express}
-                    alt='Hypnobirthing Express course option'
-                    className='course-options'
-                  />
-                </NavLink>
-              </Grid>
-              <Grid item xs={12} sm={12} md={4} lg={3}>
-                <NavLink to='/courses'>
-                  <img
-                    src={Postnatal}
-                    alt='Postnatal course option'
-                    className='course-options'
-                  />
-                </NavLink>
-              </Grid>
-              <Grid item xs={12} sm={12} md={4} lg={3}>
-                <NavLink to='/courses'>
-                  <img
-                    src={Call}
-                    alt='One off call course option'
-                    className='course-options'
-                  />
-                </NavLink>
+              <Grid item xs={12} sm={12} md={6} lg={6} sx={{display: "flex", justifyContent: "space-around", alignItems: "center", flexWrap: "wrap"}}>
+                <Box
+                  sx={{
+                    height: '300px',
+                    width: "300px",
+                    backgroundImage: 'url(' + Postnatal + ')',
+                    backgroundSize: 'cover',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                  }}
+                >
+                  <NavLink to='/courses' style={{ textDecoration: 'none' }}>
+                    <div className='course-bg'>
+                      <h1 className='course-text'>Postnatal</h1>
+                    </div>
+                  </NavLink>
+                </Box>
+                <Box
+                  sx={{
+                    height: '300px',
+                    width: "300px",
+                    backgroundImage: 'url(' + Call + ')',
+                    backgroundSize: 'cover',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center'
+                  }}
+                >
+                  <NavLink to='/courses' style={{ textDecoration: 'none' }}>
+                    <div className='course-bg'>
+                      <h1 className='course-text'>One Off Call</h1>
+                    </div>
+                  </NavLink>
+                </Box>
               </Grid>
             </Grid>
           </div>
