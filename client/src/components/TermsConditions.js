@@ -8,7 +8,7 @@ export default function TermsConditions () {
     <div>
       <div className='courses-wrapper'>
         <div className='course-page-div tandcs'>
-          <h3 className='courses-header'>Terms and Conditions</h3>
+          <h3 className='tandcs-header'>Terms and Conditions</h3>
           <p>
             Thank you for booking a course with Mighty Fierce Birth! I am
             excited to share this journey with you.
