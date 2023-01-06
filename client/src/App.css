@@ -347,20 +347,21 @@ h1 {
 
 .about-pg-div {
     background-color: #FABFE2;
-    margin: 20px 100px 0px 100px;
+    margin: 20px;
     text-align: center;
     padding: 50px;
-    font-size: 30px;
+    font-size: 2.5vh;
 }
 
 .about-pg-div p {
-    padding: 10px;
+    padding: 5px;
 }
 
 .about-banner {
-    width: 50%;
+    width: 80vmin;
     display: block;
-    /* padding-top: 20px; */
+    /* margin-top: 20px; */
+    padding-top: 20px;
     margin: 0 auto;
 }
 
@@ -369,6 +370,9 @@ h1 {
     /* width: 100%; */
     margin: 20px 100px 0px 100px;
     padding-top: -20px;
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
     /* padding: 10px; */
 }
 

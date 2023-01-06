@@ -41,7 +41,6 @@ export default function AboutPage () {
             the way we do - more important how we can change that mindset.
           </p>
         </div>
-        <Footer />
       </Fade>
     </div>
   )
