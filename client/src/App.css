@@ -411,7 +411,7 @@ h2 {
 }
 
 .contact-image {
-    width: 60%;
+    width: 40vmin;
     display: block;
     margin: 0 auto;
     /* margin-top: 20px; */
