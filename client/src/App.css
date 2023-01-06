@@ -277,7 +277,7 @@ h1 {
 }
 
 .feed {
-    width: 50%;
+    width: 80vmin;
     display: block;
     margin: 0 auto;
     padding-bottom: 50px;
