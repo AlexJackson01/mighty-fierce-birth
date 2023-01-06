@@ -11,11 +11,11 @@ export default function Footer () {
   return (
     <Fade bottom>
       <div className='footer'>
-        <Grid container spacing={2}>
-          <Grid item xs={4} sm={4} md={4}>
+        <Grid container spacing={2} sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+          <Grid item xs={12} sm={4} md={4} sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
             <img src={Logo} alt='Mighty Fierce logo' />
           </Grid>
-          <Grid item xs={4} sm={4} md={4}>
+          <Grid item xs={12} sm={4} md={4} sx={{textAlign: "center"}}>
             <p>
               <a
                 href='https://www.instagram.com/mightyfiercebirth/'
@@ -39,7 +39,7 @@ export default function Footer () {
               07519 954715
             </p>
           </Grid>
-          <Grid item xs={4} sm={4} md={4}>
+          <Grid item xs={12} sm={4} md={4} sx={{textAlign: "center"}}>
             <NavLink
               to='/t&cs'
               className='tcs-link'
