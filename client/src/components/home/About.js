@@ -1,23 +1,23 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import Video from '../../assets/videos/about-video.mp4'
+import Prosha from "../../assets/images/prosha3.png"
+// import Video from '../../assets/videos/about-video.mp4'
 import { Fade } from 'react-reveal'
 
 export default function About () {
   return (
     <div className='about-section'>
       <Fade bottom>
-        <h1 className='about-h1'>
-          Hi I’m Prosha, founder of Mighty Fierce Birth!
-        </h1>
         <Grid container spacing={0}>
-          <Grid item xs={12} sm={12} md={6}>
-            <video loop autoPlay muted className='video'>
-              <source src={Video} type='video/mp4' />
-            </video>
+          <Grid item xs={12} sm={12} md={6} sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+          <img src={Prosha} alt="MFB founder, Prosha" className='about-photo' />
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
+          <h1 className='about-h1'>
+          Hi I’m Prosha, founder of Mighty Fierce Birth!
+        </h1>
             <div className='about-div'>
+
               <p>
                 I am a mum of one and a hypnobirthing enthusiast. I started
                 Mighty Fierce Birth to to support others prepare for the

@@ -18,12 +18,11 @@
     height: 150px;
 }
 
-.video {
-    width: 100%;
-    padding-top: 20px;
-    margin-bottom: 50px;
-    height: 75%;
-}   
+.about-photo {
+    height: 500px;
+    margin: 0 auto;
+
+}
 
 .banner-image {
     background-color: 'black';
@@ -141,7 +140,7 @@
 
 .about-section {
     padding: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .video {
@@ -264,7 +263,7 @@ h4 {
 }
 
 .about-h1 {
-    margin-top: -50px;
+    /* margin-top: -50px; */
     font-weight: 600;
 }
 
