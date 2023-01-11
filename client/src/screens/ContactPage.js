@@ -15,7 +15,7 @@ export default function ContactPage () {
           <h2>Contact</h2>
           <Grid container spacing={2} sx={{ paddingBottom: 3 }}>
             <Grid item xs={12} sm={12} md={6}>
-              <Paper elevation={3} sx={{ padding: "30px"}}>
+              <Paper elevation={3} sx={{ padding: "30px", paddingBottom: 8.4, display: "flex", justifyContent: "center", alignItems: "center" }}>
                 <img
                   src={Photo}
                   alt='image of founder, Prosha and her daughter'

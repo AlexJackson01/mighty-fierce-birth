@@ -56,6 +56,18 @@
     font-family: "League Spartan";
 }
 
+.about-banner-text {
+    color: #EC5EB1;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "League Spartan";
+}
+
+.ayla {
+    height: 70vmin;
+    /* margin-left: 50px; */
+}
+
 .course-bg {
     background-color: rgba(0, 0, 0, 0.5);
     /* margin: 20px; */
@@ -317,7 +329,7 @@ h1 {
 .course-info {
     text-align: center;
     padding: 20px;
-    font-size: 2.5vh;
+    /* font-size: 2.5vh; */
 }
 
 .tandcs {
@@ -370,14 +382,27 @@ h1 {
 
 .about-pg-div {
     background-color: #FABFE2;
-    margin: 20px;
+    /* margin: 20px; */
     text-align: center;
     padding: 20px;
-    font-size: 2vh;
+    height: 100%;
+}
+
+.hypno-header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.about-bg {
+    background-color: #fee5f4;
 }
 
 .about-pg-div p {
     padding: 5px;
+}
+
+.about-text {
+    font-size: 2vh;
 }
 
 .about-banner {
