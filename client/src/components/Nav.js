@@ -54,7 +54,7 @@ function Nav (props) {
             sx={{ textAlign: 'center', justifyContent: 'center' }}
           >
             <NavLink
-              to={item.toLowerCase()}
+              to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
               style={{
                 textDecoration: 'none',
                 textTransform: 'none',
@@ -93,7 +93,7 @@ function Nav (props) {
           position: 'sticky',
           backgroundColor: '#FABFE2',
           color: 'black',
-          height: 180,
+          height: 150,
           justifyContent: 'center'
         }}
       >
