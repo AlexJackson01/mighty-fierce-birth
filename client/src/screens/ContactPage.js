@@ -14,8 +14,8 @@ export default function ContactPage () {
         <Fade bottom>
           <h2>Contact</h2>
           <Grid container spacing={2} sx={{ paddingBottom: 3 }}>
-            <Grid item xs={12} sm={6} md={6}>
-              <Paper elevation={3} sx={{ padding: '30px' }}>
+            <Grid item xs={12} sm={12} md={6}>
+              <Paper elevation={3} sx={{ padding: "30px"}}>
                 <img
                   src={Photo}
                   alt='image of founder, Prosha and her daughter'
@@ -24,7 +24,7 @@ export default function ContactPage () {
               </Paper>
             </Grid>
 
-            <Grid item xs={12} sm={6} md={6}>
+            <Grid item xs={12} sm={12} md={6}>
               <Paper
                 elevation={3}
                 sx={{ padding: '30px', display: "flex", justifyContent: "center", alignItems: "center", height: 436 }}
