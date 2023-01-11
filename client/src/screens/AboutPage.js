@@ -11,7 +11,7 @@ export default function AboutPage () {
     <div className='about-bg'>
       {/* <Nav /> */}
       <Fade bottom>
-      <h2 className='hypno-header'>What is Hypnobirthing?</h2>
+      <h1 className='about-header'>What is Hypnobirthing?</h1>
         <Grid container spacing={0}>
         <Grid
             item

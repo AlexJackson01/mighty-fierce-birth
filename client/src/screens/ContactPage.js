@@ -12,7 +12,7 @@ export default function ContactPage () {
     <div>
       <div className='contact-page'>
         <Fade bottom>
-          <h2>Contact</h2>
+          <h1 className='about-header'>Contact</h1>
           <Grid container spacing={2} sx={{ paddingBottom: 3 }}>
             <Grid item xs={12} sm={12} md={6}>
               <Paper elevation={3} sx={{ padding: "30px", paddingBottom: 8.4, display: "flex", justifyContent: "center", alignItems: "center" }}>
