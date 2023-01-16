@@ -19,6 +19,7 @@ import Logo from '../assets/images/mighty-logo.png'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import { NavLink } from 'react-router-dom'
+import ScrollTop from './ScrollTop'
 
 const drawerWidth = 240
 const navItems = ['Home', 'Courses', 'About', 'Contact']
@@ -167,6 +168,7 @@ function Nav (props) {
   
           </Box>
         </Toolbar>
+        <ScrollTop />
       </AppBar>
       <Box component='nav'>
         <Drawer
@@ -188,6 +190,7 @@ function Nav (props) {
           {drawer}
         </Drawer>
       </Box>
+
     </Box>
   )
 }
