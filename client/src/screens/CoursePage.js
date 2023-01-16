@@ -1,6 +1,7 @@
 import React from 'react'
 import CourseAccordian from '../components/courses/CourseAccordian'
 import CourseBlurb from '../components/courses/CourseBlurb'
+import PrivateFull from '../components/courses/PrivateFull'
 import Extras from '../components/courses/Extras'
 import { Fade } from 'react-reveal'
 import Footer from '../components/Footer'
@@ -15,6 +16,7 @@ export default function CoursePage () {
         <div className='course-page-div'>
           <Fade bottom>
             <CourseBlurb />
+            <PrivateFull />
             <CourseAccordian />
 
             <Grid container spacing={4}>

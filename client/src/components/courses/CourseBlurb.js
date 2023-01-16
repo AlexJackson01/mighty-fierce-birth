@@ -3,7 +3,7 @@ import React from 'react'
 export default function CourseBlurb() {
   return (
     <div className='course-info'>
-              <h1 className='about-header'>My Courses</h1>
+              <h1 className='about-header'>Mighty Fierce Birth Courses</h1>
 
               <p>
                 I offer a range of courses that will be suited to you at
