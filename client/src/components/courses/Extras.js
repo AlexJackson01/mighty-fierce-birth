@@ -3,9 +3,9 @@ import React from 'react'
 export default function Extras() {
   return (
     <div>
-        <h1 className='extras-header'>
+        <h3 className='extras-header'>
                   YOU GET SO MANY OTHER EXTRAS WHEN YOU BOOK A COURSE WITH ME!
-                </h1>
+                </h3>
                 <div className='extras-div'>
                   <p>
                     - My continued support throughout your pregnancy and course

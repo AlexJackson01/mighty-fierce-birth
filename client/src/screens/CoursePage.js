@@ -17,7 +17,7 @@ export default function CoursePage () {
           <Fade bottom>
             <CourseBlurb />
             <PrivateFull />
-            <CourseAccordian />
+            {/* <CourseAccordian /> */}
 
             <Grid container spacing={4}>
               <Grid item xs={12} sm={12} md={6}>

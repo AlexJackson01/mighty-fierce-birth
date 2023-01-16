@@ -7,6 +7,10 @@ import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import { alpha, styled } from '@mui/material/styles'
 import { Divider } from '@mui/material'
+import BoltIcon from '@mui/icons-material/Bolt'
+import FlashOnIcon from '@mui/icons-material/FlashOn'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 
 const BannerButton = styled(Button)(({ theme }) => ({
   textTransform: 'none',
@@ -41,47 +45,51 @@ export default function PrivateFull () {
         discuss what happens immediately after birth and how to prepare.
       </p>
 
-      <h3 className='course-section'>Choose from:</h3>
+      <h4 className='course-section'>Choose from:</h4>
 
       <div className='course-cards'>
         {courses.map(course => (
           <div>
-            <Card sx={{ width: 345, height: 550 }}>
-              <CardMedia
-                sx={{ height: 300 }}
-                image={require('../../assets/images/course-card.png')}
-                title='pink lightning bolt icon'
-              />
+            <Card elevation={0} sx={{ width: 345, height: 300 }}>
+              <CardMedia sx={{ height: 100 }}>
+                <FlashOnIcon sx={{ fontSize: 100, color: '#EC5EB1' }} />
+              </CardMedia>
               <CardContent>
-                <Typography gutterBottom variant='h5' component='div' sx={{ fontFamily: "League Spartan"}}>
+                <Typography
+                  gutterBottom
+                  variant='h5'
+                  component='div'
+                  sx={{ fontFamily: 'League Spartan' }}
+                >
                   {course.name}
                 </Typography>
-                <Typography variant='body2' color='text.secondary' sx={{fontFamily: "League Spartan"}}>
+                <Typography
+                  variant='body2'
+                  color='text.secondary'
+                  sx={{ fontFamily: 'League Spartan' }}
+                >
                   {course.details}
                 </Typography>
               </CardContent>
-              <CardActions>
-                <BannerButton
-                  variant='contained'
-                  sx={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    margin: '0 auto',
-                    justifyContent: 'center',
-                    backgroundColor: '#EC5EB1',
-                    textTransform: 'none',
-                    fontFamily: 'League Spartan',
-                    fontSize: '20px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  Book this course
-                </BannerButton>
-              </CardActions>
+              <CardActions></CardActions>
             </Card>
           </div>
         ))}
       </div>
+      <Button
+        variant='text'
+        sx={{
+          textTransform: 'none',
+          color: '#EC5EB1',
+          fontSize: 20,
+          fontFamily: 'League Spartan',
+          marginBottom: 10
+        }}
+      >
+        <ArrowForwardIcon />
+        Book a Private Full Course
+        <ArrowBackIcon />
+      </Button>
     </div>
   )
 }
