@@ -113,7 +113,7 @@ export default function HypnobirthingExpress () {
         }}
       >
         <ArrowForwardIcon />
-        Book an Express Course
+        <a className="booking-link" href="https://forms.gle/o5PCszVBnj5yXZvJ7" target="_blank">Book an Express Course</a>
         <ArrowBackIcon />
       </Button>
 

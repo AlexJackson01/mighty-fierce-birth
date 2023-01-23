@@ -87,7 +87,7 @@ export default function PrivateFull () {
         }}
       >
         <ArrowForwardIcon />
-        Book a Private Full Course
+        <a className="booking-link" href="https://forms.gle/o5PCszVBnj5yXZvJ7" target="_blank">Book a Private Full Course</a>
         <ArrowBackIcon />
       </Button>
     </div>

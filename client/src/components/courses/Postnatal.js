@@ -26,7 +26,7 @@ export default function Postnatal() {
         }}
       >
         <ArrowForwardIcon />
-        Book a Postnatal Course
+        <a className="booking-link" href="https://forms.gle/o5PCszVBnj5yXZvJ7" target="_blank">Book a Postnatal Course</a>
         <ArrowBackIcon />
       </Button>
     </div>

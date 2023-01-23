@@ -403,6 +403,17 @@ h1 {
     flex-wrap: wrap;
 }
 
+.booking-link {
+    text-transform: none;
+    color:#EC5EB1;
+    text-decoration: none;
+}
+
+.booking-link:hover {
+    color:#EC5EB1;
+    text-decoration: underline;
+}
+
 .coming-soon {
     color: white;
     font-family: "League Spartan";

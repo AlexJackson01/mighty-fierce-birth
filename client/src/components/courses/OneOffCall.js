@@ -22,7 +22,7 @@ export default function OneOffCall() {
         }}
       >
         <ArrowForwardIcon />
-        Book a One-Off Call
+        <a className="booking-link" href="https://forms.gle/o5PCszVBnj5yXZvJ7" target="_blank">Book a One-Off Call</a>
         <ArrowBackIcon />
       </Button>
     </div>
