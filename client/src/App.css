@@ -371,6 +371,42 @@ h1 {
     font-weight: 600;
     /* font-size: 2vw; */
     padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.upcoming-courses {
+    background-color: #EC5EB1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.course-button {
+    margin-bottom: 30px;
+    text-transform: none;
+    background-color: #EC5EB1;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.course-button:hover {
+    background-color: #FABFE2;
+    color: black;
+}
+
+.course-buttons-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.coming-soon {
+    color: white;
+    font-family: "League Spartan";
+    font-weight: 600;
 }
 
 .extras-header {

@@ -167,8 +167,9 @@ function Nav (props) {
             </IconButton>
   
           </Box>
+          <ScrollTop />
         </Toolbar>
-        <ScrollTop />
+
       </AppBar>
       <Box component='nav'>
         <Drawer

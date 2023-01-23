@@ -19,7 +19,7 @@ export default function CourseBlurb() {
               </p>
 
               <p>
-                Here are some details but feel free to get in touch with any
+                Click the course buttons below for more details but feel free to get in touch with any
                 questions or if you’d like something more flexible.
               </p>
             </div>

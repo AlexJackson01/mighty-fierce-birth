@@ -1,4 +1,6 @@
 import React from 'react'
+import StarIcon from '@mui/icons-material/Star';
+import Star from '@mui/icons-material/Star';
 
 export default function Extras() {
   return (
@@ -8,16 +10,16 @@ export default function Extras() {
                 </h3>
                 <div className='extras-div'>
                   <p>
-                    - My continued support throughout your pregnancy and course
+                    <StarIcon /> My continued support throughout your pregnancy and course
                     via WhatsApp!
                   </p>
-                  <p>- A goody bag with some surprise freebies</p>
+                  <p><StarIcon /> A goody bag with some surprise freebies</p>
                   <p>
-                    - Online resources which includes a full workbook to use
+                    <StarIcon /> Online resources which includes a full workbook to use
                     throughout your pregnancy
                   </p>
                   <p>
-                    - Other resources you will receive include pre-recorded
+                    <StarIcon /> Other resources you will receive include pre-recorded
                     videos about breastfeeding, sling baby wearing, baby massage
                     and intro to starting solids
                   </p>

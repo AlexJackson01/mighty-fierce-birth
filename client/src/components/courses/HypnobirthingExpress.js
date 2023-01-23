@@ -11,6 +11,8 @@ import BoltIcon from '@mui/icons-material/Bolt'
 import FlashOnIcon from '@mui/icons-material/FlashOn'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
+import StarIcon from '@mui/icons-material/Star';
+
 
 const BannerButton = styled(Button)(({ theme }) => ({
   textTransform: 'none',
@@ -24,9 +26,9 @@ const BannerButton = styled(Button)(({ theme }) => ({
   }
 }))
 
-export default function PrivateFull () {
+export default function HypnobirthingExpress () {
   const [courses, setCourses] = useState([
-    { name: 'Online Course', details: '£350' },
+    { name: 'Online Course', details: '£150' },
     {
       name: 'Home Course',
       details:
@@ -35,18 +37,42 @@ export default function PrivateFull () {
   ])
   return (
     <div className='course-info'>
-      {/* <h3 className='course-section'>Private Full Course - £350</h3> */}
-      <p>10+ hour course</p>
+      {/* <h3 className='course-section'>Hypnobirthing Express - £150</h3> */}
+      <p>4 hour course (online)</p>
 
       <p>
-        In our weekly sessions, topics will cover everything from the science of
-        birth, how your brain affects everything, your birth plans, your birth
-        environment to learning the importance of your birth partner! We will
-        discuss what happens immediately after birth and how to prepare.
+        This is an ideal course to help you start your birth journey or if you
+        are close to your due date!
+      </p>
+
+      <p>
+        We will look into the key tools for hypnobirthing so you can feel more
+        confident about giving birth.{' '}
+      </p>
+
+      <p>You will get:</p>
+
+      <p>
+        <StarIcon /> 4 hours of teaching
+      </p>
+
+      <p>
+        <StarIcon /> A workbook
+      </p>
+
+      <p>
+        <StarIcon /> WhatsApp support during the course
+
+      </p>
+
+      <p>
+        <StarIcon /> Hypnobirthing MP3s
+
       </p>
 
       <h4 className='course-section'>Choose from:</h4>
 
+  
       <div className='course-cards'>
         {courses.map(course => (
           <div>
@@ -87,9 +113,10 @@ export default function PrivateFull () {
         }}
       >
         <ArrowForwardIcon />
-        Book a Private Full Course
+        Book an Express Course
         <ArrowBackIcon />
       </Button>
+
     </div>
   )
 }
