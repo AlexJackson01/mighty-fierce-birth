@@ -89,12 +89,12 @@ function Nav (props) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar
+            <AppBar
         sx={{
           position: 'sticky',
           backgroundColor: '#FABFE2',
           color: 'black',
-          height: 150,
+          height: 140,
           justifyContent: 'center'
         }}
       >
@@ -108,9 +108,9 @@ function Nav (props) {
           >
             <MenuIcon fontSize='large' />
           </IconButton>
-          <Typography sx={{ display: { md: 'none' }, paddingRight: 5 }}>
+          <Typography sx={{ display: { md: 'none' }, paddingLeft: 1 }}>
             <NavLink to='/'>
-              <img src={Logo} className='logo' alt='Pesky Kidd logo' />
+              <img src={Logo} className='logo' alt='Mighty Fierce Birth logo' />
             </NavLink>
           </Typography>
           <Typography sx={{ display: { md: 'none' } }}>
