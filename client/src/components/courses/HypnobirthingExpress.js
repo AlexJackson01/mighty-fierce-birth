@@ -31,7 +31,7 @@ export default function HypnobirthingExpress () {
     {
       name: 'Home Course',
       details:
-        'Learn the full-course in the comfort of your own home. Dependant on your location, I generally cover North London and South Hertfordshire, please get in contact to discuss further!'
+        'Learn the full-course in the comfort of your own home. Dependent on your location, I generally cover North London and South Hertfordshire. Please get in contact to discuss further!'
     }
   ])
   return (
