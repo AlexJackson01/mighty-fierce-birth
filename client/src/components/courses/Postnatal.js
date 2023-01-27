@@ -12,7 +12,7 @@ export default function Postnatal() {
       <p>1.5 hour</p>
 
       <p>
-      Our postnatal course is ideal if you’d like to find out more about the 4th trimester and what that may involve for you!
+      The postnatal course is ideal if you’d like to know more about what happens once your baby is born and what to expect throughout the 4th trimester!
       </p>
 
       <Button

@@ -10,7 +10,7 @@ export default function OneOffCall() {
   return (
     <div>
         {/* <h3 className='course-section'>One-Off Call - £50</h3> */}
-      <p>1 hour call to discuss any topic you like! </p>
+      <p>A one-off call to discuss pregnancy, birth or post-partum - it's your choice!</p>
       <Button
         variant='text'
         sx={{

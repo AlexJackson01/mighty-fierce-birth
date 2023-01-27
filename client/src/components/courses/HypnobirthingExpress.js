@@ -11,8 +11,7 @@ import BoltIcon from '@mui/icons-material/Bolt'
 import FlashOnIcon from '@mui/icons-material/FlashOn'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
-import StarIcon from '@mui/icons-material/Star';
-
+import StarIcon from '@mui/icons-material/Star'
 
 const BannerButton = styled(Button)(({ theme }) => ({
   textTransform: 'none',
@@ -32,7 +31,7 @@ export default function HypnobirthingExpress () {
     {
       name: 'Home Course',
       details:
-        'In the comfort of your own home - I come to you! Depending on location and proximity to HA7'
+        'Learn the full-course in the comfort of your own home. Dependant on your location, I generally cover North London and South Hertfordshire, please get in contact to discuss further!'
     }
   ])
   return (
@@ -41,38 +40,31 @@ export default function HypnobirthingExpress () {
       <p>4 hour course (online)</p>
 
       <p>
-        This is an ideal course to help you start your birth journey or if you
-        are close to your due date!
+        This course is ideal if you’re close to your due date, or to help you
+        start your birth journey. We’ll look into the key tools for
+        hypnobirthing, so you can feel more confident giving birth!
+      </p>
+
+      <p>You'll receive:</p>
+
+      <p>
+        <StarIcon /> 4 hours of one-on-one training
       </p>
 
       <p>
-        We will look into the key tools for hypnobirthing so you can feel more
-        confident about giving birth.{' '}
-      </p>
-
-      <p>You will get:</p>
-
-      <p>
-        <StarIcon /> 4 hours of teaching
+        <StarIcon /> A workbook and resources
       </p>
 
       <p>
-        <StarIcon /> A workbook
-      </p>
-
-      <p>
-        <StarIcon /> WhatsApp support during the course
-
+        <StarIcon /> All the extras for post-partum
       </p>
 
       <p>
         <StarIcon /> Hypnobirthing MP3s
-
       </p>
 
       <h4 className='course-section'>Choose from:</h4>
 
-  
       <div className='course-cards'>
         {courses.map(course => (
           <div>
@@ -113,10 +105,15 @@ export default function HypnobirthingExpress () {
         }}
       >
         <ArrowForwardIcon />
-        <a className="booking-link" href="https://forms.gle/o5PCszVBnj5yXZvJ7" target="_blank">Book an Express Course</a>
+        <a
+          className='booking-link'
+          href='https://forms.gle/o5PCszVBnj5yXZvJ7'
+          target='_blank'
+        >
+          Book an Express Course
+        </a>
         <ArrowBackIcon />
       </Button>
-
     </div>
   )
 }

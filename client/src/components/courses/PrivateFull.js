@@ -39,10 +39,13 @@ export default function PrivateFull () {
       <p>10+ hour course</p>
 
       <p>
-        In our weekly sessions, topics will cover everything from the science of
-        birth, how your brain affects everything, your birth plans, your birth
-        environment to learning the importance of your birth partner! We will
-        discuss what happens immediately after birth and how to prepare.
+        Our weekly topics cover everything from the science of birth and how
+        your brain affects everything, to your birth plans and your birthing
+        environment! One-to-one we’ll discuss how to prepare and what happens
+        immediately after giving birth. You’ll also receive all the extras that
+        I offer for post-partum, which includes information on breastfeeding and
+        weaning. Please feel free to involve your birthing partner in all or
+        some sessions, as they play an important role in your journey.
       </p>
 
       <h4 className='course-section'>Choose from:</h4>
@@ -87,7 +90,13 @@ export default function PrivateFull () {
         }}
       >
         <ArrowForwardIcon />
-        <a className="booking-link" href="https://forms.gle/o5PCszVBnj5yXZvJ7" target="_blank">Book a Private Full Course</a>
+        <a
+          className='booking-link'
+          href='https://forms.gle/o5PCszVBnj5yXZvJ7'
+          target='_blank'
+        >
+          Book a Private Full Course
+        </a>
         <ArrowBackIcon />
       </Button>
     </div>
