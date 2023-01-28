@@ -30,7 +30,7 @@ export default function PrivateFull () {
     {
       name: 'Home Course',
       details:
-        'In the comfort of your own home - I come to you! Depending on location and proximity to HA7'
+      'Learn the full-course in the comfort of your own home. Dependent on your location, I generally cover North London and South Hertfordshire. Please get in contact to discuss further!'
     }
   ])
   return (

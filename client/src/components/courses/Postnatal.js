@@ -7,7 +7,7 @@ import { Button } from '@mui/material';
 
 export default function Postnatal() {
   return (
-    <div>
+    <div className='course-info'>
         {/* <h3 className='course-section'>Postnatal Course - £60</h3> */}
       <p>1.5 hour</p>
 

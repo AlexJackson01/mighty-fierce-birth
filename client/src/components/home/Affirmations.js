@@ -13,7 +13,17 @@ export default function Affirmations () {
               Your courage is stronger than your fear
             </h1>
           </Grid>
-          <Grid item xs={12} sm={6} md={6} sx={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={6}
+            sx={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
+            }}
+          >
             {/* <button className="affirm-button">
                     <p>Click here for</p>
                     <p className="button-text">printable affirmations</p>

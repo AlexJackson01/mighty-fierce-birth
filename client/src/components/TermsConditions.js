@@ -29,7 +29,9 @@ export default function TermsConditions () {
             £50 non-refundable deposit to secure the booking and all remaining
             payment must be made 24 hours before your first session.
           </p>
-          <p>All other courses must be paid in full before your first session.</p>
+          <p>
+            All other courses must be paid in full before your first session.
+          </p>
           <br />
           <h4>BANK DETAILS</h4>
           <p>
@@ -70,9 +72,19 @@ export default function TermsConditions () {
             We will also send you the class content materials via email.
           </p>
           <h4>DISCLAIMER</h4>
-
-          <p>I accept no responsibility for any of the decisions you make in regards to your pregnancy and birth.</p>
-          <p>Prosha Sharif and Mighty Fierce Birth accepts no responsibility for the inappropriate use of Hypnobirthing techniques or complications or harm to any third party resulting from the use of Hypnobirthing techniques as a substitute for medical advice. Hypnobirthing is intended solely as an aid to help increase the comfort of labour and birth and is not in any way a guarantee or promise of expected, imagined or actual outcome of the labour or birth.</p>
+          <p>
+            I accept no responsibility for any of the decisions you make in
+            regards to your pregnancy and birth.
+          </p>
+          <p>
+            Prosha Sharif and Mighty Fierce Birth accepts no responsibility for
+            the inappropriate use of Hypnobirthing techniques or complications
+            or harm to any third party resulting from the use of Hypnobirthing
+            techniques as a substitute for medical advice. Hypnobirthing is
+            intended solely as an aid to help increase the comfort of labour and
+            birth and is not in any way a guarantee or promise of expected,
+            imagined or actual outcome of the labour or birth.
+          </p>
           <h4>PRIVACY POLICY</h4>
           <p>
             Our Contact Details:

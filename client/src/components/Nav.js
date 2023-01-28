@@ -43,7 +43,11 @@ function Nav (props) {
     >
       <Typography variant='h6' sx={{ my: 2, paddingTop: 5 }}>
         <NavLink to='/'>
-          <img src={Logo} className='logo' alt='Mighty Fierce Birth Logo logo' />
+          <img
+            src={Logo}
+            className='logo'
+            alt='Mighty Fierce Birth Logo logo'
+          />
         </NavLink>
       </Typography>
       <Divider />
@@ -55,7 +59,7 @@ function Nav (props) {
             sx={{ textAlign: 'center', justifyContent: 'center' }}
           >
             <NavLink
-              to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
+              to={item === 'Home' ? '/' : `/${item.toLowerCase()}`}
               style={{
                 textDecoration: 'none',
                 textTransform: 'none',
@@ -76,7 +80,10 @@ function Nav (props) {
         >
           <InstagramIcon fontSize='large' sx={{ color: 'black' }} />
         </IconButton>
-        <IconButton href='https://www.facebook.com/mightyfiercebirth/' target='_blank'>
+        <IconButton
+          href='https://www.facebook.com/mightyfiercebirth/'
+          target='_blank'
+        >
           <FacebookIcon fontSize='large' sx={{ color: 'black' }} />
         </IconButton>
       </List>
@@ -89,7 +96,7 @@ function Nav (props) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-            <AppBar
+      <AppBar
         sx={{
           position: 'sticky',
           backgroundColor: '#FABFE2',
@@ -132,7 +139,11 @@ function Nav (props) {
               }}
             >
               <NavLink to='/'>
-                <img src={Logo} className='logo' alt='Mighty Fierce Birth logo' />
+                <img
+                  src={Logo}
+                  className='logo'
+                  alt='Mighty Fierce Birth logo'
+                />
               </NavLink>
             </Box>
           </Typography>
@@ -140,13 +151,13 @@ function Nav (props) {
             {navItems.map(item => (
               <Button key={item}>
                 <NavLink
-                  to={item === "Home" ? "/" : `/${item}`}
+                  to={item === 'Home' ? '/' : `/${item}`}
                   style={{
                     textDecoration: 'none',
                     textTransform: 'none',
                     color: 'black',
                     fontFamily: 'League Spartan',
-                    fontSize: 22,
+                    fontSize: 22
                   }}
                 >
                   {item}
@@ -165,11 +176,9 @@ function Nav (props) {
             >
               <FacebookIcon fontSize='large' sx={{ color: 'black' }} />
             </IconButton>
-  
           </Box>
           <ScrollTop />
         </Toolbar>
-
       </AppBar>
       <Box component='nav'>
         <Drawer
@@ -191,7 +200,6 @@ function Nav (props) {
           {drawer}
         </Drawer>
       </Box>
-
     </Box>
   )
 }

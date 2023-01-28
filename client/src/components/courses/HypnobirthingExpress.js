@@ -68,7 +68,7 @@ export default function HypnobirthingExpress () {
       <div className='course-cards'>
         {courses.map(course => (
           <div>
-            <Card elevation={0} sx={{ width: 345, height: 300 }}>
+            <Card elevation={0} sx={{ width: 345, height: 280 }}>
               <CardMedia sx={{ height: 100 }}>
                 <FlashOnIcon sx={{ fontSize: 100, color: '#EC5EB1' }} />
               </CardMedia>
