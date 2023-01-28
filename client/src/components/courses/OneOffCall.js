@@ -9,6 +9,7 @@ import Button from '@mui/material/Button'
 export default function OneOffCall() {
   return (
     <div className='course-info'>
+      <p>1 hour</p>
         {/* <h3 className='course-section'>One-Off Call - £50</h3> */}
       <p>A one-off call to discuss pregnancy, birth or post-partum - it's your choice!</p>
       <Button

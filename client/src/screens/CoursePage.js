@@ -11,12 +11,26 @@ import ComingSoon from '../components/courses/ComingSoon'
 import { HashScroll } from 'react-hash-scroll'
 import Postnatal from '../components/courses/Postnatal'
 import OneOffCall from '../components/courses/OneOffCall'
+import Button from '@mui/material/Button'
+import { alpha, styled } from '@mui/material/styles'
 
 export default function CoursePage () {
   const privateRef = useRef()
   const hypnoRef = useRef()
   const postRef = useRef()
   const oneOffRef = useRef()
+
+  const CourseButton = styled(Button)(({ theme }) => ({
+    textTransform: 'none',
+    backgroundColor: '#EC5EB1',
+    color: 'white',
+    padding: '10px 20px 10px 20px',
+    fontSize: '20px',
+    '&:hover': {
+      backgroundColor: '#FABFE2',
+      color: 'black'
+    }
+  }))
 
   return (
     <div>
@@ -26,38 +40,86 @@ export default function CoursePage () {
           <Fade bottom>
             <CourseBlurb />
             <div className='course-buttons-div'>
-              <button
+              <CourseButton
+                variant='contained'
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  margin: '0 auto',
+                  justifyContent: 'center',
+                  backgroundColor: '#EC5EB1',
+                  textTransform: 'none',
+                  fontFamily: 'League Spartan',
+                  fontSize: '20px',
+                  marginBottom: '20px'
+                }}
                 className='course-button'
                 onClick={() =>
                   privateRef.current?.scrollIntoView({ behavior: 'smooth' })
                 }
               >
                 Private Full Course
-              </button>
-              <button
+              </CourseButton>
+              <CourseButton
+                variant='contained'
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  margin: '0 auto',
+                  justifyContent: 'center',
+                  backgroundColor: '#EC5EB1',
+                  textTransform: 'none',
+                  fontFamily: 'League Spartan',
+                  fontSize: '20px',
+                  marginBottom: '20px'
+                }}
                 className='course-button'
                 onClick={() =>
                   hypnoRef.current?.scrollIntoView({ behavior: 'smooth' })
                 }
               >
                 Hypnobirthing Express
-              </button>
-              <button
+              </CourseButton>
+              <CourseButton
+                variant='contained'
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  margin: '0 auto',
+                  justifyContent: 'center',
+                  backgroundColor: '#EC5EB1',
+                  textTransform: 'none',
+                  fontFamily: 'League Spartan',
+                  fontSize: '20px',
+                  marginBottom: '20px'
+                }}
                 className='course-button'
                 onClick={() =>
                   postRef.current?.scrollIntoView({ behavior: 'smooth' })
                 }
               >
                 Postnatal
-              </button>
-              <button
+              </CourseButton>
+              <CourseButton
+                variant='contained'
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  margin: '0 auto',
+                  justifyContent: 'center',
+                  backgroundColor: '#EC5EB1',
+                  textTransform: 'none',
+                  fontFamily: 'League Spartan',
+                  fontSize: '20px',
+                  marginBottom: '20px'
+                }}
                 className='course-button'
                 onClick={() =>
                   oneOffRef.current?.scrollIntoView({ behavior: 'smooth' })
                 }
               >
                 One Off Call
-              </button>
+              </CourseButton>
             </div>
             <h3 ref={privateRef} className='course-section'>
               Private Full Course - £350
