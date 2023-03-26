@@ -1,3 +1,7 @@
-![Mighty Fierce Birth Logo](./client/src/assets/images/mighty-logo.png)
+<p align="center">
+<img src="./client/src/assets/images/mighty-logo.png" width="200"/>
+</p>
 
-## See the website at [www.mightyfiercebirth.com](https://www.mightyfiercebirth.com)
+<h2 align="center">
+See the website at <a href="www.mightyfiercebirth.com">www.mightyfiercebirth.com</a>
+</h2>
