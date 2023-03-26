@@ -10,6 +10,8 @@
 
 .logo {
     height: 20vh;
+    display: block;
+    margin: 0 auto;
     /* margin-bottom: -50px; */
     /* width: 50%; */
 }
@@ -65,9 +67,17 @@
     font-family: "League Spartan";
 }
 
-.ayla {
-    height: 70vmin;
+.babies-pic {
+    height: 50vmin;
     /* margin-left: 50px; */
+}
+
+.sleeping-baby {
+    height: 40vmin;
+}
+
+a {
+    color: black;
 }
 
 .course-bg {

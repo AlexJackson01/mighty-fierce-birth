@@ -100,6 +100,7 @@ export default function Courses () {
                 </Box>
               </Grid>
             </Grid>
+            <p>Photos by <a href="https://instagram.com/shootingstar_fotografie?igshid=YmMyMTA2M2Y=" target="_blank">@shootingstar_fotographie</a></p>
           </div>
         </div>
       </Fade>

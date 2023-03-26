@@ -3,7 +3,7 @@ import React from 'react'
 import { Fade } from 'react-reveal'
 import Banner from '../assets/images/About-banner.png'
 import Footer from '../components/Footer'
-import Ayla from '../assets/images/ayla.jpg'
+import Babies from '../assets/images/babies.png'
 import { NavLink } from 'react-router-dom'
 
 export default function AboutPage () {
@@ -17,20 +17,20 @@ export default function AboutPage () {
             item
             xs={12}
             sm={12}
-            md={4}
+            md={6}
             sx={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center'
             }}
           >
-            <img src={Ayla} alt='Photo of Baby Ayla' className='ayla' />
+            <img src={Babies} alt='Photo of babies' className='babies-pic' />
           </Grid>
           <Grid
             item
             xs={12}
             sm={12}
-            md={8}
+            md={6}
             sx={{
               display: 'flex',
               justifyContent: 'center',
@@ -61,6 +61,8 @@ export default function AboutPage () {
                 the way we do - more important how we can channel into an
                 empowered state of mind.
               </p>
+              <p>Photos by <a href="https://instagram.com/shootingstar_fotografie?igshid=YmMyMTA2M2Y=" target="_blank">@shootingstar_fotographie</a></p>
+
             </div>
           </Grid>
         </Grid>
