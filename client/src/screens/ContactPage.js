@@ -21,7 +21,8 @@ export default function ContactPage () {
                   paddingBottom: 8.4,
                   display: 'flex',
                   justifyContent: 'center',
-                  alignItems: 'center'
+                  alignItems: 'center',
+                  height: 429
                 }}
               >
                 <img
@@ -40,7 +41,7 @@ export default function ContactPage () {
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
-                  height: 436
+                  height: 429
                 }}
               >
                 <Socials />
