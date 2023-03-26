@@ -5,9 +5,7 @@ import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
-import { alpha, styled } from '@mui/material/styles'
-import { Divider } from '@mui/material'
-import BoltIcon from '@mui/icons-material/Bolt'
+import { styled } from '@mui/material/styles'
 import FlashOnIcon from '@mui/icons-material/FlashOn'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
@@ -30,7 +28,7 @@ export default function PrivateFull () {
     {
       name: 'Home Course',
       details:
-      'Learn the full-course in the comfort of your own home. Dependent on your location, I generally cover North London and South Hertfordshire. Please get in contact to discuss further!'
+        'Learn the full-course in the comfort of your own home. Dependent on your location, I generally cover North London and South Hertfordshire. Please get in contact to discuss further!'
     }
   ])
   return (

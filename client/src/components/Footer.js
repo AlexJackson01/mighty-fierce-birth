@@ -60,7 +60,6 @@ export default function Footer () {
           <Grid item xs={12} sm={4} md={4} sx={{ textAlign: 'center' }}>
             <NavLink
               to='/t&cs'
-              className='tcs-link'
               style={{
                 color: 'white',
                 fontFamily: 'League Spartan',
@@ -70,7 +69,7 @@ export default function Footer () {
                 textAlign: 'center'
               }}
             >
-              <li className='tcs-link'>Terms & Conditions</li>
+              <li>Terms & Conditions</li>
             </NavLink>
           </Grid>
         </Grid>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
-import { alpha, styled } from '@mui/material/styles'
+import { styled } from '@mui/material/styles'
 import Banner1 from '../../assets/images/Banner1.png'
 import { NavLink } from 'react-router-dom'
 import { Fade } from 'react-reveal'
@@ -21,10 +21,6 @@ const BannerButton = styled(Button)(({ theme }) => ({
 export default function Banner () {
   return (
     <div>
-      {/* <img src={BannerImg} className="banner-image" /> */}
-      {/* <video loop autoPlay muted className="video">
-            <source src={Video} type="video/mp4" />
-        </video> */}
       <Fade right>
         <Grid container spacing={0}>
           <Grid
@@ -63,24 +59,6 @@ export default function Banner () {
               </NavLink>
             </div>
           </Grid>
-
-          {/* <Grid
-            item
-            xs={12}
-            sm={12}
-            md={6}
-            sx={{
-              backgroundColor: 'black',
-              paddingmarginBottom: '20px',
-              backgroundImage: 'url(' + Banner1 + ')',
-              backgroundSize: 'cover',
-              width: '100%'
-            }}
-          >
-            <div>
-              <img src={Banner1} className="banner-image" />
-            </div>
-          </Grid> */}
         </Grid>
       </Fade>
     </div>

@@ -120,9 +120,7 @@ function Nav (props) {
               <img src={Logo} className='logo' alt='Mighty Fierce Birth logo' />
             </NavLink>
           </Typography>
-          <Typography sx={{ display: { md: 'none' } }}>
-            {/* <h1 className='nav-heading'>Pesky Kidd</h1> */}
-          </Typography>
+          <Typography sx={{ display: { md: 'none' } }}></Typography>
           <Typography
             variant='h6'
             component='div'

@@ -5,16 +5,10 @@ import About from '../components/home/About'
 import Reviews from '../components/home/Reviews'
 import Affirmations from '../components/home/Affirmations'
 import Instagram from '../components/home/Instagram'
-import Footer from '../components/Footer'
-import Video from '../assets/videos/about-video.mp4'
 
 export default function Home () {
   return (
     <div>
-      {/* <section>
-        <Nav />
-      </section> */}
-
       <section>
         <Banner />
       </section>
@@ -38,10 +32,6 @@ export default function Home () {
       <section>
         <Instagram />
       </section>
-
-      {/* <section>
-        <Footer />
-      </section> */}
     </div>
   )
 }

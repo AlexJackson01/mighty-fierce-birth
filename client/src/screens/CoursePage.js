@@ -3,16 +3,14 @@ import CourseBlurb from '../components/courses/CourseBlurb'
 import PrivateFull from '../components/courses/PrivateFull'
 import Extras from '../components/courses/Extras'
 import { Fade } from 'react-reveal'
-import Footer from '../components/Footer'
 import { Grid } from '@mui/material'
 import Selfie from '../assets/images/prosha1.jpg'
 import Hypnobirthing from '../components/courses/HypnobirthingExpress'
 import ComingSoon from '../components/courses/ComingSoon'
-import { HashScroll } from 'react-hash-scroll'
 import Postnatal from '../components/courses/Postnatal'
 import OneOffCall from '../components/courses/OneOffCall'
 import Button from '@mui/material/Button'
-import { alpha, styled } from '@mui/material/styles'
+import { styled } from '@mui/material/styles'
 
 export default function CoursePage () {
   const privateRef = useRef()
@@ -34,7 +32,6 @@ export default function CoursePage () {
 
   return (
     <div>
-      {/* <Nav /> */}
       <div className='courses-wrapper'>
         <div className='course-page-div'>
           <Fade bottom>

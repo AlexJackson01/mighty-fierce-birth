@@ -1,7 +1,4 @@
 import React from 'react'
-import Nav from './Nav'
-import Video from '../assets/videos/about-video.mp4'
-import Footer from './Footer'
 
 export default function TermsConditions () {
   return (
@@ -53,7 +50,7 @@ export default function TermsConditions () {
             would also receive a full refund.
           </p>
           <h4>IF YOU NEED TO CANCEL A SESSION DUE TO SICKNESS</h4>
-          <p className='tcs-section'>Private classes</p>{' '}
+          <p>Private classes</p>{' '}
           <p>
             If you or your partner are unwell and are unable to attend a class,
             the session can be rescheduled, at no additional cost, at a time
@@ -65,7 +62,7 @@ export default function TermsConditions () {
             will endeavour to avoid these, and they must agreed to & paid in
             advance should they be incurred.
           </p>
-          <p className='tcs-section'>Group classes</p>{' '}
+          <p>Group classes</p>{' '}
           <p>
             If you or your partner are unwell and unable to attend a group
             class, We will aim to invite you to attend the next available class.

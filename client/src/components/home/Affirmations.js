@@ -24,10 +24,6 @@ export default function Affirmations () {
               alignItems: 'center'
             }}
           >
-            {/* <button className="affirm-button">
-                    <p>Click here for</p>
-                    <p className="button-text">printable affirmations</p>
-                    </button> */}
             <img src={Flower} className='flower' />
           </Grid>
         </Grid>

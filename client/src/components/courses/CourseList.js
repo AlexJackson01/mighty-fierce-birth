@@ -27,11 +27,23 @@ export default function Courses () {
                 paddingBottom: '20px'
               }}
             >
-              <Grid item xs={12} sm={12} md={6} lg={6} sx={{display: "flex", justifyContent: "space-around", alignItems: "center", flexWrap: "wrap"}}>
+              <Grid
+                item
+                xs={12}
+                sm={12}
+                md={6}
+                lg={6}
+                sx={{
+                  display: 'flex',
+                  justifyContent: 'space-around',
+                  alignItems: 'center',
+                  flexWrap: 'wrap'
+                }}
+              >
                 <Box
                   sx={{
                     height: '300px',
-                    width: "300px",
+                    width: '300px',
                     backgroundImage: 'url(' + Private + ')',
                     backgroundSize: 'cover',
                     display: 'flex',
@@ -48,7 +60,7 @@ export default function Courses () {
                 <Box
                   sx={{
                     height: '300px',
-                    width: "300px",
+                    width: '300px',
                     backgroundImage: 'url(' + Express + ')',
                     backgroundSize: 'cover',
                     display: 'flex',
@@ -63,11 +75,23 @@ export default function Courses () {
                   </NavLink>
                 </Box>
               </Grid>
-              <Grid item xs={12} sm={12} md={6} lg={6} sx={{display: "flex", justifyContent: "space-around", alignItems: "center", flexWrap: "wrap"}}>
+              <Grid
+                item
+                xs={12}
+                sm={12}
+                md={6}
+                lg={6}
+                sx={{
+                  display: 'flex',
+                  justifyContent: 'space-around',
+                  alignItems: 'center',
+                  flexWrap: 'wrap'
+                }}
+              >
                 <Box
                   sx={{
                     height: '300px',
-                    width: "300px",
+                    width: '300px',
                     backgroundImage: 'url(' + Postnatal + ')',
                     backgroundSize: 'cover',
                     display: 'flex',
@@ -84,7 +108,7 @@ export default function Courses () {
                 <Box
                   sx={{
                     height: '300px',
-                    width: "300px",
+                    width: '300px',
                     backgroundImage: 'url(' + Call + ')',
                     backgroundSize: 'cover',
                     display: 'flex',
@@ -100,7 +124,15 @@ export default function Courses () {
                 </Box>
               </Grid>
             </Grid>
-            <p>Photos by <a href="https://instagram.com/shootingstar_fotografie?igshid=YmMyMTA2M2Y=" target="_blank">@shootingstar_fotographie</a></p>
+            <p>
+              Photos by{' '}
+              <a
+                href='https://instagram.com/shootingstar_fotografie?igshid=YmMyMTA2M2Y='
+                target='_blank'
+              >
+                @shootingstar_fotographie
+              </a>
+            </p>
           </div>
         </div>
       </Fade>

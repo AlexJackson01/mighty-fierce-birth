@@ -1,14 +1,22 @@
 import React from 'react'
 import Baby from '../../assets/images/baby.png'
 
-
 export default function CourseBlurb () {
   return (
     <div className='course-info'>
       <h1 className='about-header'>Mighty Fierce Birth Courses</h1>
 
-      <img src={Baby} alt="pic of a sleeping baby" className="sleeping-baby" />
-      <p>Photo by <a href="https://instagram.com/shootingstar_fotografie?igshid=YmMyMTA2M2Y=" target="_blank">@shootingstar_fotographie</a></p><br />
+      <img src={Baby} alt='pic of a sleeping baby' className='sleeping-baby' />
+      <p>
+        Photo by{' '}
+        <a
+          href='https://instagram.com/shootingstar_fotografie?igshid=YmMyMTA2M2Y='
+          target='_blank'
+        >
+          @shootingstar_fotographie
+        </a>
+      </p>
+      <br />
 
       <p>
         I offer a wide range of courses at affordable prices. They are science
