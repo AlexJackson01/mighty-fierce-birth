@@ -6,7 +6,7 @@ import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid'
 export default function Socials () {
   return (
     <div className='socials'>
-      <p>
+      <p className='about-text'>
         If you want to get in touch with me about my courses or Hypnobirthing in
         general, please fill in the contact form here or use my details below!
       </p>

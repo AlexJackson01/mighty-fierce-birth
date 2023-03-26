@@ -1,6 +1,8 @@
 @font-face {
-    font-family: 'Breathing'; /*a name to be used later*/
-    src: url('./assets/fonts/Breathing.ttf'); /*URL to font*/
+    font-family: 'Breathing';
+    /*a name to be used later*/
+    src: url('./assets/fonts/Breathing.ttf');
+    /*URL to font*/
 }
 
 * {
@@ -26,13 +28,11 @@
     height: 70vmin;
     margin: 0 auto;
     padding-top: 30px;
-
 }
 
 .banner-image {
     background-color: 'black';
     margin-bottom: '20px';
-
     width: 100vw;
     height: 350px;
 }
@@ -42,8 +42,6 @@
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
 }
-
-
 
 .banner-text-1 {
     margin-top: -20px;
@@ -139,7 +137,6 @@ a {
     padding: 40px;
     font-weight: 600;
     font-size: 2.5vw;
-
 }
 
 .courses-info {
@@ -148,7 +145,6 @@ a {
     font-family: 'League Spartan';
     font-size: 20px;
 }
-
 
 .courses-wrapper {
     background-image: url(./assets/images/zebra-print.png);
@@ -162,6 +158,7 @@ a {
     padding: 20px;
     text-align: center;
 }
+
 .course-list {
     display: flex;
     justify-content: center;
@@ -222,7 +219,6 @@ h4 {
 
 .reviews-section {
     background-color: #FABFE2;
-    
     margin-bottom: -20px;
     /* padding: 50px; */
 }
@@ -241,7 +237,7 @@ h4 {
     padding: 10px;
     text-align: center;
     /* font-size: 3vmin; */
-}   
+}
 
 .review-text {
     font-weight: 600;
@@ -266,13 +262,12 @@ h4 {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     font-weight: 600;
-    
 }
 
 .flower {
     display: block;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 40vmin;
     padding-bottom: 30px;
 }
@@ -299,7 +294,6 @@ h4 {
     font-size: 30px;
     /* margin-top: -20px;
     margin-bottom: -3px; */
-
 }
 
 .about-h1 {
@@ -335,6 +329,7 @@ h1 {
     height: 150px;
     /* width: 50%; */
 }
+
 
 /* COURSES PAGE */
 
@@ -417,12 +412,12 @@ h1 {
 
 .booking-link {
     text-transform: none;
-    color:#EC5EB1;
+    color: #EC5EB1;
     text-decoration: none;
 }
 
 .booking-link:hover {
-    color:#EC5EB1;
+    color: #EC5EB1;
     text-decoration: underline;
 }
 
@@ -450,6 +445,7 @@ h1 {
     font-family: "League Spartan";
     font-size: 2vh;
 }
+
 
 /* ABOUT PAGE */
 
@@ -540,5 +536,6 @@ h2 {
     /* margin-top: 20px; */
 }
 
-
-    
+.socials p {
+    font-size: 3vh;
+}
